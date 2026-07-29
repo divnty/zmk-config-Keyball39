@@ -125,8 +125,8 @@ layers:
   - F2
   - F3
   - F4
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:volume-low$$', h: '$$mdi:progress-download$$'}
+  - {t: '$$mdi:volume-high$$', h: '$$mdi:progress-download$$'}
   - Sft+F1
   - Sft+F2
   - Sft+F3
@@ -136,7 +136,7 @@ layers:
   - F7
   - F8
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$', type: held}
-  - {type: held alternate}
+  - {t: '&string2', type: held alternate}
   - Sft+F5
   - Sft+F6
   - Sft+F7
@@ -146,7 +146,7 @@ layers:
   - F11
   - F12
   - $$mdi:apple-keyboard-control$$
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '&string'
   - Sft+F9
   - Sft+F10
   - Sft+F11
@@ -159,7 +159,7 @@ layers:
   - {h: '2', s: '$$mdi:bluetooth-connect$$'}
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
   - {h: '4', s: '$$mdi:bluetooth-connect$$'}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:apple-keyboard-caps$$
   Nav:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
