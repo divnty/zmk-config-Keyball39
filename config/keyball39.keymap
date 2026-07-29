@@ -440,20 +440,20 @@
         mouse {
             display-name = "2";
             bindings = <
-&trans  &trans           &trans                &trans                 &trans                     &trans     &trans  &msc SCRL_UP    &mmv MOVE_UP    &msc SCRL_DOWN
-&trans  &trans           &trans                &mo 2                  &trans                     &trans     &trans  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT
-&trans  &trans           &kp LC(LEFT_BRACKET)  &kp LC(RIGHT_BRACKET)  &trans                     &mkp MB5   &trans  &trans          &trans          &msc SCRL_LEFT
-&trans  &msc SCRL_RIGHT  &trans                &trans                 &trans  &trans  &mkp LCLK  &mkp RCLK                                          &mkp MB3
+&bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2          &bt BT_SEL 3           &bt BT_SEL 4                     &trans     &msc SCRL_UP    &mmv MOVE_UP    &msc SCRL_DOWN   &trans
+&trans        &trans        &trans                &mo 2                  &trans                           &trans     &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans
+&trans        &trans        &kp LC(LEFT_BRACKET)  &kp LC(RIGHT_BRACKET)  &bt BT_CLR                       &trans     &msc SCRL_LEFT  &trans          &msc SCRL_RIGHT  &trans
+&trans        &trans        &trans                &trans                 &trans        &trans  &mkp LCLK  &mkp RCLK                                                   &trans
             >;
         };
 
         slowmouse {
             display-name = "3";
             bindings = <
-&trans  &trans           &trans  &trans  &trans                    &trans    &trans  &msc SCRL_UP       &mmv MOVE_Y(-400)  &msc SCRL_DOWN
-&trans  &trans           &trans  &trans  &trans                    &trans    &trans  &mmv MOVE_X(-400)  &mmv MOVE_Y(400)   &mmv MOVE_X(400)
-&trans  &trans           &trans  &trans  &trans                    &mkp MB5  &trans  &trans             &trans             &msc SCRL_LEFT
-&trans  &msc SCRL_RIGHT  &trans  &trans  &trans  &trans  &mkp MB1  &mkp MB2                                                &trans
+&trans  &trans  &trans  &trans  &trans                    &trans    &msc SCRL_UP       &mmv MOVE_Y(-400)  &msc SCRL_DOWN    &trans
+&trans  &trans  &trans  &trans  &trans                    &trans    &mmv MOVE_X(-400)  &mmv MOVE_Y(400)   &mmv MOVE_X(400)  &trans
+&trans  &trans  &trans  &trans  &trans                    &trans    &msc SCRL_LEFT     &trans             &msc SCRL_RIGHT   &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &mkp MB1  &mkp MB2                                                          &trans
             >;
         };
 
