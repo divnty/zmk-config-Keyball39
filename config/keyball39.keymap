@@ -460,10 +460,10 @@
         cc {
             display-name = "4";
             bindings = <
-&kp F1       &kp F2       &kp F3   &kp F4   &trans                             &trans     &trans        &kp LS(F1)  &kp LS(F2)  &kp LS(F3)
-&kp F5       &kp F6       &kp F7   &kp F8   &sk LEFT_SHIFT                     &trans     &trans        &kp LS(F5)  &kp LS(F6)  &kp LS(F7)
-&kp F9       &kp F10      &kp F11  &kp F12  &kp LCTRL                          &trans     &bt BT_SEL 4  &trans      &kp LS(F9)  &kp LS(F10)
-&kp LS(F11)  &kp LS(F12)  &trans   &trans   &trans          &trans  &kp ENTER  &kp SPACE                                        &trans
+&kp F1  &kp F2   &kp F3   &kp F4        &trans                                      &trans        &kp LS(F1)  &kp LS(F2)   &kp LS(F3)   &kp LS(F4)
+&kp F5  &kp F6   &kp F7   &kp F8        &sk LEFT_SHIFT                              &trans        &kp LS(F5)  &kp LS(F6)   &kp LS(F7)   &kp LS(F8)
+&kp F9  &kp F10  &kp F11  &kp F12       &kp LCTRL                                   &trans        &kp LS(F9)  &kp LS(F10)  &kp LS(F11)  &kp LS(F12)
+&trans  &trans   &trans   &bt BT_SEL 2  &bt BT_SEL 4    &bt BT_SEL 1  &bt BT_SEL 0  &bt BT_SEL 3                                        &trans
             >;
         };
 
