@@ -12,9 +12,9 @@
 
 //&sl { release-after-ms = <1000>; };
 
-&lt { flavor = "tap-preferred"; };
+//&lt { flavor = "tap-preferred"; };
 
-&mt { flavor = "tap-preferred"; };
+//&mt { flavor = "tap-preferred"; };
 
 / {
     behaviors {
