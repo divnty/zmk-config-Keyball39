@@ -430,68 +430,68 @@
         base {
             display-name = "0";
             bindings = <
-&kp Q                      &kp W                  &kp E               &kp R                 &kp T                                                                  &kp Y              &kp U               &lpl INSERT I  &kp O                      &lpl PAUSE_BREAK P        
-&lpl LEFT_WIN A            &lpl LEFT_ALT S        &lpl LCTRL D        &lpl LEFT_SHIFT F     &stickylayer 3 G                                                       &lt 3 H            &lpl RIGHT_SHIFT J  &lpl RCTRL K   &lpl RIGHT_ALT L           &lpl RIGHT_WIN SEMICOLON  
-&lt 5 Z                    &lt 6 X                &lplcapsword 0 C    &lt 1 V               &lpl LS(LC(B)) B  &kp TAB            &lt (1) LA(TAB)                   &kp N              &lt 5 M             &kp COMMA      &kp PERIOD                 &kpforw 0 SLASH           
-&kp GRAVE                  &tog 2                 &kp LEFT            &kp RIGHT                                 &mkplayer 5 MB1    &kp ENTER         &kp SPACE                                         &kp UP_ARROW   &kp DOWN                   &tog 4                    
+&kp Q            &kp W            &kp E             &kp R              &kp T                                    &kp Y      &kp U               &lpl INSERT I  &kp O             &lpl PAUSE_BREAK P
+&lpl LEFT_WIN A  &lpl LEFT_ALT S  &lpl LCTRL D      &lpl LEFT_SHIFT F  &stickylayer 3 G                         &lt 3 H    &lpl RIGHT_SHIFT J  &lpl RCTRL K   &lpl RIGHT_ALT L  &lpl RIGHT_WIN SEMICOLON
+&lt 5 Z          &lt 6 X          &lplcapsword 0 C  &lt 1 V            &lpl LS(LC(B)) B                         &kp N      &lt 5 LA(M)         &kp COMMA      &kp PERIOD        &kp SLASH
+&kp PERIOD       &kpforw 0 SLASH  &kp GRAVE         &kp BACKSPACE      &kp DELETE        &kp ESCAPE  &kp ENTER  &kp SPACE                                                       &kp SPACE
             >;
         };
 
         mouse {
             display-name = "2";
             bindings = <
-&trans        &trans                &trans                 &trans        &trans                                                      &trans     &trans  &msc SCRL_UP    &mmv MOVE_UP    &msc SCRL_DOWN   
-&trans        &trans                &trans                 &mo 2         &trans                                                      &trans     &trans  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  
-&trans        &trans                &kp LC(LEFT_BRACKET)   &kp LC(RIGHT_BRACKET)  &trans  &mkp MB5  &trans                   &trans  &trans     &msc SCRL_LEFT  &trans          &msc SCRL_RIGHT 
-&trans        &trans                &trans                 &trans                &mkp LCLK &mkp RCLK &mkp MB3               &trans  &trans     &trans          &trans          &trans          
+&trans  &trans           &trans                &trans                 &trans                     &trans     &trans  &msc SCRL_UP    &mmv MOVE_UP    &msc SCRL_DOWN
+&trans  &trans           &trans                &mo 2                  &trans                     &trans     &trans  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT
+&trans  &trans           &kp LC(LEFT_BRACKET)  &kp LC(RIGHT_BRACKET)  &trans                     &mkp MB5   &trans  &trans          &trans          &msc SCRL_LEFT
+&trans  &msc SCRL_RIGHT  &trans                &trans                 &trans  &trans  &mkp LCLK  &mkp RCLK                                          &mkp MB3
             >;
         };
 
         slowmouse {
             display-name = "3";
             bindings = <
-&trans        &trans        &trans        &trans        &trans                                                  &trans    &trans  &msc SCRL_UP         &mmv (MOVE_Y(-400))  &msc SCRL_DOWN    
-&trans        &trans        &trans        &trans        &trans                                                  &trans    &trans  &mmv (MOVE_X(-400))  &mmv MOVE_Y(400)     &mmv MOVE_X(400)  
-&trans        &trans        &trans        &trans        &trans        &mkp MB5  &trans                   &trans &trans    &msc SCRL_LEFT       &trans               &msc SCRL_RIGHT   
-&trans        &trans        &trans        &trans                      &mkp MB1  &mkp MB2  &trans         &trans &trans    &trans               &trans               &trans            
+&trans  &trans           &trans  &trans  &trans                    &trans    &trans  &msc SCRL_UP       &mmv MOVE_Y(-400)  &msc SCRL_DOWN
+&trans  &trans           &trans  &trans  &trans                    &trans    &trans  &mmv MOVE_X(-400)  &mmv MOVE_Y(400)   &mmv MOVE_X(400)
+&trans  &trans           &trans  &trans  &trans                    &mkp MB5  &trans  &trans             &trans             &msc SCRL_LEFT
+&trans  &msc SCRL_RIGHT  &trans  &trans  &trans  &trans  &mkp MB1  &mkp MB2                                                &trans
             >;
         };
 
         cc {
             display-name = "4";
             bindings = <
-&kp F1   &kp F2    &kp F3   &kp F4   &trans                                                        &trans        &trans  &kp LS(F1)  &kp LS(F2)   &kp LS(F3)   
-&kp F5   &kp F6    &kp F7   &kp F8   &sk LEFT_SHIFT                                                &trans        &trans  &kp LS(F5)  &kp LS(F6)   &kp LS(F7)   
-&kp F9   &kp F10   &kp F11  &kp F12  &kp LCTRL         &trans      &bt BT_SEL 4                      &trans        &kp LS(F9)  &kp LS(F10)  &kp LS(F11)  &kp LS(F12)  
-&trans   &trans    &trans   &trans                     &kp ENTER   &kp SPACE   &trans                &trans        &trans      &trans       &trans       &trans       
+&kp F1       &kp F2       &kp F3   &kp F4   &trans                             &trans     &trans        &kp LS(F1)  &kp LS(F2)  &kp LS(F3)
+&kp F5       &kp F6       &kp F7   &kp F8   &sk LEFT_SHIFT                     &trans     &trans        &kp LS(F5)  &kp LS(F6)  &kp LS(F7)
+&kp F9       &kp F10      &kp F11  &kp F12  &kp LCTRL                          &trans     &bt BT_SEL 4  &trans      &kp LS(F9)  &kp LS(F10)
+&kp LS(F11)  &kp LS(F12)  &trans   &trans   &trans          &trans  &kp ENTER  &kp SPACE                                        &trans
             >;
         };
 
         Non-Standard {
             display-name = "0";
             bindings = <
-&kp TAB       &kp Q         &kp W         &kp E         &kp R                                                                &trans     &kp Y         &kp U         &kp I         &kp O             
-&kp LALT      &kp A         &kp S         &kp D         &kp F                                                                &trans     &kp H         &kp J         &kp K         &kp L             
-&kp Z         &kp X         &kp C         &kp V         &kp B             &kp LCTRL      &scrollupleft                       &trans     &kp N         &kp M         &kp COMMA     &kp PERIOD        
-&kp HOME      &kp END       &kp LEFT      &kp RIGHT                       &kp SPACE      &kp LSHFT      &kp CLCK             &trans     &kp UP_ARROW  &kp DOWN      &kp LEFT_BRACKET  
+&kp TAB    &kp Q       &kp W     &kp E    &kp R                           &trans     &kp Y          &kp U   &kp I  &kp O
+&kp LALT   &kp A       &kp S     &kp D    &kp F                           &trans     &kp H          &kp J   &kp K  &kp L
+&kp Z      &kp X       &kp C     &kp V    &kp B                           &kp LCTRL  &scrollupleft  &trans  &kp N  &kp M
+&kp COMMA  &kp PERIOD  &kp HOME  &kp END  &kp LEFT  &kp RIGHT  &kp SPACE  &kp LSHFT                                &kp CLCK
             >;
         };
 
         Nav {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &trans    &kp UP    &trans     
-&trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &trans    &kp LEFT  &kp DOWN   
-&trans  &trans  &trans  &trans  &trans          &trans      &trans          &trans  &trans  &trans    &trans    &trans     
-&trans  &trans  &trans  &trans                  &trans      &trans  &trans  &trans  &trans  &trans    &trans    &trans     
+&trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &kp UP    &trans
+&trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &kp LEFT  &kp DOWN
+&trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans    &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                            &trans
             >;
         };
 
         layer_6 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &kp N7      &kp N8         &kp N9           
-&trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &kp N4      &kp N5         &kp N6           
-&trans  &trans  &trans  &trans  &trans          &trans      &trans          &trans  &kp N1      &kp N2         &kp N3           
-&trans  &trans  &trans  &trans                  &trans      &trans  &trans  &trans  &kp N0      &kp N0         &kp PERIOD       
+&trans  &trans  &trans  &trans  &trans                  &trans  &trans  &kp N7  &kp N8  &kp N9
+&trans  &trans  &trans  &trans  &trans                  &trans  &trans  &kp N4  &kp N5  &kp N6
+&trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &kp N1  &kp N2
+&kp N3  &trans  &trans  &trans  &trans  &trans  &trans  &trans                          &trans
             >;
         };
     };
