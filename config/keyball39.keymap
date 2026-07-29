@@ -16,14 +16,8 @@
 
 &mt { flavor = "tap-preferred"; };
 
-&sk {
-};
-
 / {
     behaviors {
-        //#include "macros.dtsi"
-        //#include "version.dtsi"
-
         ahm: ahomerow_mods {
             compatible = "zmk,behavior-hold-tap";
             label = "aHOMEROW_MODS";
