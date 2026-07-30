@@ -33,7 +33,7 @@ layers:
   - {t: /, s: '?'}
   - {t: '`', s: '~'}
   - Meh+D
-  - Meh+D
+  - Ctl+C
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:backspace-reverse-outline$$
   - {t: '$$mdi:keyboard-tab$$', h: '$$mdi:keyboard-esc$$'}
@@ -241,11 +241,11 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
-- p: [13, 14, 15, 16]
-  k: {t: '$$mdi:backup-restore$$', type: bootloader}
-- p: [19, 20, 21, 22]
-  k: {t: '$$mdi:backup-restore$$', type: bootloader}
-- p: [25, 22]
+- p: [16, 37]
+  k: '&mkp MB2'
+- p: [36, 16]
+  k: '&mkp MB1'
+- p: [13, 33]
   k: PRINTSCREEN
 - p: [25, 21]
   k: Gui+5
