@@ -466,7 +466,7 @@
 
         automouse {
             bindings = <
-&trans  &trans          &kp UP_ARROW  &trans       &trans                        &trans  &trans    &trans    &mo 5     &trans
+&trans  &trans          &kp UP_ARROW  &trans       &trans                        &trans  &trans    &mo 4     &mo 5     &trans
 &trans  &kp LEFT_ARROW  &kp DOWN      &kp RIGHT    &trans                        &trans  &mkp MB1  &mkp MB3  &mkp MB2  &trans
 &trans  &trans          &kp LC(C)     &kp LC(V)    &trans                        &trans  &trans    &trans    &trans    &trans
 &trans  &trans          &trans        &kp PAGE_UP  &kp PAGE_DOWN  &mo 4  &trans  &trans                                &trans
