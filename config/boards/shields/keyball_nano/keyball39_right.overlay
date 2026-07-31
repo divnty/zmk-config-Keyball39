@@ -67,3 +67,6 @@
 
   };
 };
+&trackball {
+input-processors = <&zip_temp_layer 6 1500>, <&zip_xy_scaler 2 1>;
+}; 
