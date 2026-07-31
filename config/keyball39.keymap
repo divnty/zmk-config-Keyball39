@@ -11,8 +11,6 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/pointing.h>
 
-
-
 //&sl { release-after-ms = <1000>; };
 //&lt { flavor = "tap-preferred"; };
 //&mt { flavor = "tap-preferred"; };
@@ -487,6 +485,15 @@
 &trans  &trans  &trans  &trans  &trans                  &trans  &lpl DOLLAR NUMBER_4       &lpl PERCENT N5        &lpl CARET NUMBER_6        &lpl UNDERSCORE MINUS
 &trans  &trans  &trans  &trans  &trans                  &trans  &lpl EXCLAMATION NUMBER_1  &lpl AT_SIGN NUMBER_2  &lpl HASH NUMBER_3         &lpl PLUS EQUAL
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                                                                               &trans
+            >;
+        };
+
+        automouse {
+            bindings = <
+&trans  &trans          &kp UP_ARROW  &trans       &trans                           &trans   &trans    &trans    &trans    &trans
+&trans  &kp LEFT_ARROW  &kp DOWN      &kp RIGHT    &trans                           &trans   &mkp MB1  &mkp MB3  &mkp MB2  &trans
+&trans  &trans          &trans        &trans       &trans                           &trans   &trans    &trans    &trans    &trans
+&trans  &trans          &trans        &kp PAGE_UP  &kp PAGE_DOWN  &trans  &kp HOME  &kp END                                &trans
             >;
         };
     };
