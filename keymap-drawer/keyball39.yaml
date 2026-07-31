@@ -34,9 +34,9 @@ layers:
   - {t: '`', s: '~'}
   - Meh+D
   - Ctl+C
+  - {t: '$$mdi:keyboard-tab$$', h: '$$mdi:keyboard-esc$$'}
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:backspace-reverse-outline$$
-  - {t: '$$mdi:keyboard-tab$$', h: '$$mdi:keyboard-esc$$'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:keyboard-space$$
   - {t: '''', s: '"'}
@@ -241,15 +241,17 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
-- p: [16, 37]
+- p: [27, 28]
   k: '&mkp MB2'
-- p: [36, 16]
+- p: [27, 26]
   k: '&mkp MB1'
-- p: [13, 33]
+- p: [13, 34]
   k: PRINTSCREEN
-- p: [25, 21]
-  k: Gui+5
-- p: [25, 20]
-  k: Gui+6
-- p: [25, 19]
-  k: Gui+7
+- p: [7, 8]
+  k: PgUp
+- p: [17, 18]
+  k: PgDn
+- p: [16, 17]
+  k: END
+- p: [6, 7]
+  k: HOME
