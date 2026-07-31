@@ -5,17 +5,7 @@
  */
  
 #include "keyball39.dtsi"
-/ {
-    zip_temp_layer: zip_temp_layer {
-        compatible = "zmk,input-processor-temp-layer";
-        #input-processor-cells = <2>;
-    };
 
-    zip_xy_scaler: zip_xy_scaler {
-        compatible = "zmk,input-processor-scaler";
-        #input-processor-cells = <2>;
-    };
-};
 &default_transform {
     col-offset = <6>;
 };
@@ -77,6 +67,3 @@
 
   };
 };
-&trackball {
-input-processors = <&zip_temp_layer 6 1500>, <&zip_xy_scaler 2 1>;
-}; 
