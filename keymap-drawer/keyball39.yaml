@@ -21,7 +21,7 @@ layers:
   - {t: K, h: '$$mdi:apple-keyboard-control$$'}
   - {t: L, h: '$$mdi:apple-keyboard-option$$'}
   - {t: ;, h: RIGHT WIN, s: ':'}
-  - {t: Z, h: '$$mdi:alpha-w-box$$'}
+  - Z
   - X
   - {t: C, h: '$$mdi:alpha-w-box$$'}
   - {t: V, h: '6'}
@@ -106,7 +106,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '0', h: ), s: )}
   - {t: '1', h: '!'}
   - {t: '2', h: '@'}
   - {t: '3', h: '#'}
@@ -257,3 +257,5 @@ combos:
   k: HOME
 - p: [13, 34]
   k: $$mdi:keyboard-tab$$
+- p: [18, 19]
+  k: {t: '''', s: '"'}
