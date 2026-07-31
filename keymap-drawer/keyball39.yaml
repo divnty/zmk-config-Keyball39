@@ -27,7 +27,7 @@ layers:
   - {t: V, h: '2'}
   - {t: B, h: Sft+Ctl+B}
   - N
-  - {t: Alt+M, h: Nav}
+  - {t: M, h: Nav}
   - {t: ',', s: <}
   - .
   - {t: /, s: '?'}
