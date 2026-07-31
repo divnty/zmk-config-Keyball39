@@ -294,7 +294,7 @@
 
         printscreen {
             bindings = <&kp PRINTSCREEN>;
-            key-positions = <13 34>;
+            key-positions = <13 33>;
         };
 
         win5 {
@@ -315,6 +315,11 @@
         hoe {
             bindings = <&kp HOME>;
             key-positions = <6 7>;
+        };
+
+        tab {
+            bindings = <&kp TAB>;
+            key-positions = <13 34>;
         };
     };
 
@@ -428,10 +433,10 @@
         base {
             display-name = "0";
             bindings = <
-&kp Q             &kp W              &kp E         &kp R              &kp T                                 &kp Y      &kp U               &lpl INSERT I  &kp O             &lpl PAUSE_BREAK P
-&lpl LEFT_WIN A   &lpl LEFT_ALT S    &lpl LCTRL D  &lpl LEFT_SHIFT F  &stickylayer 3 G                      &lt 3 H    &lpl RIGHT_SHIFT J  &lpl RCTRL K   &lpl RIGHT_ALT L  &lpl RIGHT_WIN SEMICOLON
-&lplcapsword 0 Z  &lt 5 X            &lt 4 C       &lt 1 V            &lpl LS(LC(B)) B                      &kp N      &lt 4 M             &kp COMMA      &kp PERIOD        &kp SLASH
-&kp GRAVE         &kp LS(LA(LC(D)))  &kp LC(C)     &lpl ESCAPE TAB    &kp BACKSPACE     &kp DEL  &kp ENTER  &kp SPACE                                                       &kp SQT
+&kp Q             &kp W              &kp E         &kp R              &kp T                                    &kp Y      &kp U               &lpl INSERT I  &kp O             &lpl PAUSE_BREAK P
+&lpl LEFT_WIN A   &lpl LEFT_ALT S    &lpl LCTRL D  &lpl LEFT_SHIFT F  &stickylayer 3 G                         &lt 3 H    &lpl RIGHT_SHIFT J  &lpl RCTRL K   &lpl RIGHT_ALT L  &lpl RIGHT_WIN SEMICOLON
+&lplcapsword 0 Z  &lt 5 X            &lt 4 C       &lt 1 V            &lpl LS(LC(B)) B                         &kp N      &lt 4 M             &kp COMMA      &kp PERIOD        &kp SLASH
+&kp GRAVE         &kp LS(LA(LC(D)))  &kp LC(C)     &kp BACKSPACE      &kp DEL           &kp ESCAPE  &kp ENTER  &kp SPACE                                                       &kp SQT
             >;
         };
 
