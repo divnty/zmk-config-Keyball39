@@ -284,32 +284,37 @@
 
         mb2 {
             bindings = <&mkp MB2>;
-            key-positions = <16 37>;
+            key-positions = <27 28>;
         };
 
         mb1 {
             bindings = <&mkp MB1>;
-            key-positions = <36 16>;
+            key-positions = <27 26>;
         };
 
         printscreen {
             bindings = <&kp PRINTSCREEN>;
-            key-positions = <13 33>;
+            key-positions = <13 34>;
         };
 
         win5 {
-            bindings = <&kp LG(N5)>;
-            key-positions = <25 21>;
+            bindings = <&kp PAGE_UP>;
+            key-positions = <7 8>;
         };
 
         win6 {
-            bindings = <&kp LG(NUMBER_6)>;
-            key-positions = <25 20>;
+            bindings = <&kp PAGE_DOWN>;
+            key-positions = <17 18>;
         };
 
         win7 {
-            bindings = <&kp LG(N7)>;
-            key-positions = <25 19>;
+            bindings = <&kp END>;
+            key-positions = <16 17>;
+        };
+
+        hoe {
+            bindings = <&kp HOME>;
+            key-positions = <6 7>;
         };
     };
 
@@ -423,10 +428,10 @@
         base {
             display-name = "0";
             bindings = <
-&kp Q             &kp W              &kp E         &kp R              &kp T                                         &kp Y      &kp U               &lpl INSERT I  &kp O             &lpl PAUSE_BREAK P
-&lpl LEFT_WIN A   &lpl LEFT_ALT S    &lpl LCTRL D  &lpl LEFT_SHIFT F  &stickylayer 3 G                              &lt 3 H    &lpl RIGHT_SHIFT J  &lpl RCTRL K   &lpl RIGHT_ALT L  &lpl RIGHT_WIN SEMICOLON
-&lplcapsword 0 Z  &lt 5 X            &lt 4 C       &lt 1 V            &lpl LS(LC(B)) B                              &kp N      &lt 4 M             &kp COMMA      &kp PERIOD        &kp SLASH
-&kp GRAVE         &kp LS(LA(LC(D)))  &kp LC(C)     &kp BACKSPACE      &kp DELETE        &lpl ESCAPE TAB  &kp ENTER  &kp SPACE                                                       &kp SQT
+&kp Q             &kp W              &kp E         &kp R              &kp T                                 &kp Y      &kp U               &lpl INSERT I  &kp O             &lpl PAUSE_BREAK P
+&lpl LEFT_WIN A   &lpl LEFT_ALT S    &lpl LCTRL D  &lpl LEFT_SHIFT F  &stickylayer 3 G                      &lt 3 H    &lpl RIGHT_SHIFT J  &lpl RCTRL K   &lpl RIGHT_ALT L  &lpl RIGHT_WIN SEMICOLON
+&lplcapsword 0 Z  &lt 5 X            &lt 4 C       &lt 1 V            &lpl LS(LC(B)) B                      &kp N      &lt 4 M             &kp COMMA      &kp PERIOD        &kp SLASH
+&kp GRAVE         &kp LS(LA(LC(D)))  &kp LC(C)     &lpl ESCAPE TAB    &kp BACKSPACE     &kp DEL  &kp ENTER  &kp SPACE                                                       &kp SQT
             >;
         };
 
