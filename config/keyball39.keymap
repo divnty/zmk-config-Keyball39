@@ -454,7 +454,7 @@
 &trans  &trans  &trans  &trans  &trans                  &trans  &trans    &mo 4     &mo 5     &kp BACKSLASH
 &trans  &trans  &trans  &trans  &trans                  &trans  &mkp MB1  &mkp MB3  &mkp MB2  &trans
 &trans  &trans  &trans  &trans  &trans                  &trans  &mkp MB4  &trans    &mkp MB5  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                                &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                                &tog 3
             >;
         };
 
