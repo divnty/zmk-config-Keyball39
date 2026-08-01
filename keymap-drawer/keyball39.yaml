@@ -281,10 +281,6 @@ layers:
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
-- p: [27, 28]
-  k: '&mkp MB2'
-- p: [27, 26]
-  k: '&mkp MB1'
 - p: [13, 33]
   k: PRINTSCREEN
 - p: [7, 8]
@@ -297,7 +293,3 @@ combos:
   k: HOME
 - p: [13, 34]
   k: $$mdi:keyboard-tab$$
-- p: [37, 16]
-  k: {t: '''', s: '"'}
-- p: [13, 35]
-  k: $$mdi:keyboard-tab-reverse$$
