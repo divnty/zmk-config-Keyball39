@@ -324,7 +324,12 @@
 
         quote {
             bindings = <&kp SQT>;
-            key-positions = <18 19>;
+            key-positions = <37 16>;
+        };
+
+        btab {
+            bindings = <&kp LS(TAB)>;
+            key-positions = <13 35>;
         };
     };
 
@@ -468,7 +473,7 @@
             bindings = <
 &trans  &trans          &kp UP_ARROW  &trans       &trans                        &trans  &trans    &mo 4     &mo 5     &trans
 &trans  &kp LEFT_ARROW  &kp DOWN      &kp RIGHT    &trans                        &trans  &mkp MB1  &mkp MB3  &mkp MB2  &trans
-&trans  &trans          &kp LC(C)     &kp LC(V)    &trans                        &trans  &trans    &trans    &trans    &trans
+&trans  &trans          &kp LC(C)     &kp LC(V)    &trans                        &trans  &mkp MB4  &trans    &mkp MB5  &trans
 &trans  &trans          &trans        &kp PAGE_UP  &kp PAGE_DOWN  &mo 4  &trans  &trans                                &trans
             >;
         };
