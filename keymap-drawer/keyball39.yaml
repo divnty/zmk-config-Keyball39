@@ -319,7 +319,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '0', h: toggle}
+  - {t: '$$mdi:transfer$$', type: trans}
 combos:
 - p: [13, 33]
   k: PRINTSCREEN
