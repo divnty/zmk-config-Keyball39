@@ -451,10 +451,10 @@
 
         automouse {
             bindings = <
-&kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp UP_ARROW  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS                 &trans  &trans    &mo 4     &mo 5     &kp BACKSLASH
-&kp LC(C)         &kp LEFT_ARROW     &kp DOWN      &kp RIGHT             &kp LC(PRINTSCREEN)                   &trans  &mkp MB1  &mkp MB3  &mkp MB2  &trans
-&trans            &trans             &trans        &vd                   &trans                                &trans  &mkp MB4  &trans    &mkp MB5  &trans
-&trans            &trans             &trans        &kp PAGE_UP           &kp PAGE_DOWN          &mo 3  &trans  &trans                                &trans
+&kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp UP_ARROW       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS                 &trans  &trans    &mo 4     &mo 5     &kp BACKSLASH
+&kp LC(C)         &kp LEFT_ARROW     &kp DOWN           &kp RIGHT             &kp LC(PRINTSCREEN)                   &trans  &mkp MB1  &mkp MB3  &mkp MB2  &trans
+&kp LC(LG(LEFT))  &kp LS(TAB)        &kp LS(LA(LC(D)))  &kp TAB               &kp LC(LG(RIGHT))                     &trans  &mkp MB4  &trans    &mkp MB5  &trans
+&trans            &trans             &trans             &kp LC(PAGE_UP)       &kp LC(PAGE_DOWN)      &mo 3  &trans  &trans                                &trans
             >;
         };
 
