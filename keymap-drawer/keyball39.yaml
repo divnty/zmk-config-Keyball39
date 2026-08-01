@@ -39,7 +39,7 @@ layers:
   - $$mdi:keyboard-esc$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:keyboard-space$$
-  - {t: automouse, h: toggle}
+  - {t: arrow, h: toggle}
   '4':
   - F1
   - F2
@@ -319,7 +319,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '0', h: toggle}
 combos:
 - p: [13, 33]
   k: PRINTSCREEN
