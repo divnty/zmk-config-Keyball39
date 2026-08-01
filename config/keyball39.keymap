@@ -445,8 +445,8 @@
             bindings = <
 &kp Q            &kp W              &kp E             &kp R              &kp T                                    &kp Y      &kp U               &lpl INSERT I  &kp O             &lpl PAUSE_BREAK P
 &lpl LEFT_WIN A  &lpl LEFT_ALT S    &lpl LCTRL D      &lpl LEFT_SHIFT F  &stickylayer 1 G                         &lt 1 H    &lpl RIGHT_SHIFT J  &lpl RCTRL K   &lpl RIGHT_ALT L  &lpl APOS SEMICOLON
-&kp Z            &kp X              &lplcapsword 0 C  &lt 2 V            &lpl LS(LC(B)) B                         &kp N      &lt 6 M             &kp COMMA      &kp PERIOD        &kp SLASH
-&kp GRAVE        &kp LS(LA(LC(D)))  &kp LC(C)         &kp BACKSPACE      &kp DEL           &kp ESCAPE  &kp ENTER  &kp SPACE                                                       &tog 7
+&kp Z            &kp X              &lplcapsword 0 C  &lt 2 V            &lpl LS(LC(B)) B                         &kp N      &lt 3 M             &kp COMMA      &kp PERIOD        &kp SLASH
+&kp GRAVE        &kp LS(LA(LC(D)))  &kp LC(C)         &kp BACKSPACE      &kp DEL           &kp ESCAPE  &kp ENTER  &kp SPACE                                                       &tog 6
             >;
         };
 
@@ -471,10 +471,10 @@
 
         automouse {
             bindings = <
-&trans  &trans          &kp UP_ARROW  &trans       &trans                        &trans  &trans    &mo 4     &mo 5     &trans
-&trans  &kp LEFT_ARROW  &kp DOWN      &kp RIGHT    &trans                        &trans  &mkp MB1  &mkp MB3  &mkp MB2  &trans
-&trans  &trans          &kp LC(C)     &kp LC(V)    &trans                        &trans  &mkp MB4  &trans    &mkp MB5  &trans
-&trans  &trans          &trans        &kp PAGE_UP  &kp PAGE_DOWN  &mo 4  &trans  &trans                                &trans
+&kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp UP_ARROW  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS                 &trans  &trans    &mo 4     &mo 5     &kp BACKSLASH
+&trans            &kp LEFT_ARROW     &kp DOWN      &kp RIGHT             &trans                                &trans  &mkp MB1  &mkp MB3  &mkp MB2  &trans
+&trans            &trans             &kp LC(C)     &kp LC(V)             &trans                                &trans  &mkp MB4  &trans    &mkp MB5  &trans
+&trans            &trans             &trans        &kp PAGE_UP           &kp PAGE_DOWN          &mo 4  &trans  &trans                                &trans
             >;
         };
 
@@ -493,15 +493,6 @@
 &trans  &kp LEFT_ARROW  &kp DOWN      &kp RIGHT    &trans                        &trans  &mkp MB1  &mkp MB3  &mkp MB2  &trans
 &trans  &trans          &kp LC(C)     &kp LC(V)    &trans                        &trans  &trans    &trans    &trans    &trans
 &trans  &trans          &trans        &kp PAGE_UP  &kp PAGE_DOWN  &mo 4  &trans  &trans                                &trans
-            >;
-        };
-
-        symbol {
-            bindings = <
-&kp LEFT_BRACE  &kp RIGHT_BRACE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PIPE                   &trans  &trans  &trans  &trans  &trans
-&kp LBKT        &kp RBKT         &kp MINUS             &kp APOS               &kp BSLH                   &trans  &trans  &trans  &trans  &kp APOS
-&trans          &kp ASTRK        &kp EQUAL             &kp PLUS               &kp SLASH                  &trans  &trans  &trans  &trans  &trans
-&trans          &trans           &trans                &kp LS(TAB)            &kp TAB    &trans  &trans  &trans                          &trans
             >;
         };
 
