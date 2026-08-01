@@ -147,9 +147,9 @@ layers:
   - Ctl+V
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+  - '&mkp MB4'
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '&mkp MB5'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -297,5 +297,7 @@ combos:
   k: HOME
 - p: [13, 34]
   k: $$mdi:keyboard-tab$$
-- p: [18, 19]
+- p: [37, 16]
   k: {t: '''', s: '"'}
+- p: [13, 35]
+  k: $$mdi:keyboard-tab-reverse$$
