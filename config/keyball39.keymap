@@ -442,10 +442,10 @@
 
         layer_6 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                  &trans                     &lpl AMPERSAND N7          &lpl ASTERISK N8       &lpl RIGHT_PARENTHESIS N9  &lpl RIGHT_PARENTHESIS N0
-&trans  &trans  &trans  &trans  &trans                  &trans                     &lpl DOLLAR NUMBER_4       &lpl PERCENT N5        &lpl CARET NUMBER_6        &lpl UNDERSCORE MINUS
-&trans  &trans  &trans  &trans  &trans                  &lpl RIGHT_PARENTHESIS N0  &lpl EXCLAMATION NUMBER_1  &lpl AT_SIGN NUMBER_2  &lpl HASH NUMBER_3         &lpl PLUS EQUAL
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                                                                                                  &trans
+&trans  &trans  &trans  &trans  &trans                  &trans                     &lpl AMPERSAND N7          &lpl ASTERISK N8       &lpl LEFT_PARENTHESIS N9  &lpl RIGHT_PARENTHESIS N0
+&trans  &trans  &trans  &trans  &trans                  &trans                     &lpl DOLLAR NUMBER_4       &lpl PERCENT N5        &lpl CARET NUMBER_6       &lpl UNDERSCORE MINUS
+&trans  &trans  &trans  &trans  &trans                  &lpl RIGHT_PARENTHESIS N0  &lpl EXCLAMATION NUMBER_1  &lpl AT_SIGN NUMBER_2  &lpl HASH NUMBER_3        &lpl PLUS EQUAL
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                                                                                                 &trans
             >;
         };
 
