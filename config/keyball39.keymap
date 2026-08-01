@@ -494,7 +494,7 @@
         symbol {
             bindings = <
 &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PIPE                   &trans  &trans  &trans  &trans  &trans
-&kp LBKT        &kp RBKT         &kp MINUS             &kp APOS               &kp BSLH                   &trans  &trans  &trans  &trans  &trans
+&kp LBKT        &kp RBKT         &kp MINUS             &kp APOS               &kp BSLH                   &trans  &trans  &trans  &trans  &kp APOS
 &trans          &kp ASTRK        &kp EQUAL             &kp PLUS               &kp SLASH                  &trans  &trans  &trans  &trans  &trans
 &trans          &trans           &trans                &kp LS(TAB)            &kp TAB    &trans  &trans  &trans                          &trans
             >;
