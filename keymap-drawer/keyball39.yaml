@@ -55,7 +55,7 @@ layers:
   - F6
   - F7
   - F8
-  - {type: held}
+  - {t: Alt+Sft+B, h: Alt+F4, s: Sft+Ctl+A, type: held}
   - {t: '&string2', type: held alternate}
   - Sft+F5
   - Sft+F6
@@ -144,7 +144,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: 'Gui+Ctl+$$mdi:arrow-left-bold$$', s: 'Gui+Ctl+$$mdi:arrow-right-bold$$'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '&mkp MB4', type: held}
