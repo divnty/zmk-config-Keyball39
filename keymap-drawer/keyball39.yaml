@@ -131,11 +131,11 @@ layers:
   - '7'
   - '5'
   - {t: \, s: '|'}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Ctl+C
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
-  - PRINTSCREEN
+  - Ctl+PRINTSCREEN
   - {t: '$$mdi:transfer$$', type: trans}
   - '&mkp MB1'
   - '&mkp MB3'
@@ -143,9 +143,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - Ctl+C
-  - Ctl+V
-  - Ctl+PRINTSCREEN
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '&mkp MB4', type: held}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -156,7 +156,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - PgUp
   - PgDn
-  - '7'
+  - automouse
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -183,8 +183,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - Ctl+C
-  - Ctl+V
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
@@ -196,7 +196,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - PgUp
   - PgDn
-  - {type: held alternate}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
