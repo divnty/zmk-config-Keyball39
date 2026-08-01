@@ -141,11 +141,11 @@ layers:
   - '&mkp MB3'
   - '&mkp MB2'
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: 'Gui+Ctl+$$mdi:arrow-left-bold$$', s: 'Gui+Ctl+$$mdi:arrow-right-bold$$'}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Ctl+Gui+$$mdi:arrow-left-bold$$
+  - $$mdi:keyboard-tab-reverse$$
+  - Meh+D
+  - $$mdi:keyboard-tab$$
+  - Ctl+Gui+$$mdi:arrow-right-bold$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '&mkp MB4', type: held}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -154,8 +154,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - PgUp
-  - PgDn
+  - Ctl+PgUp
+  - Ctl+PgDn
   - automouse
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
