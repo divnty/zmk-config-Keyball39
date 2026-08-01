@@ -282,16 +282,6 @@
     combos {
         compatible = "zmk,combos";
 
-        mb2 {
-            bindings = <&mkp MB2>;
-            key-positions = <27 28>;
-        };
-
-        mb1 {
-            bindings = <&mkp MB1>;
-            key-positions = <27 26>;
-        };
-
         printscreen {
             bindings = <&kp PRINTSCREEN>;
             key-positions = <13 33>;
@@ -320,16 +310,6 @@
         tab {
             bindings = <&kp TAB>;
             key-positions = <13 34>;
-        };
-
-        quote {
-            bindings = <&kp SQT>;
-            key-positions = <37 16>;
-        };
-
-        btab {
-            bindings = <&kp LS(TAB)>;
-            key-positions = <13 35>;
         };
     };
 
