@@ -299,12 +299,12 @@
 
         win7 {
             bindings = <&kp END>;
-            key-positions = <17 36>;
+            key-positions = <17 37>;
         };
 
         hoe {
             bindings = <&kp HOME>;
-            key-positions = <17 37>;
+            key-positions = <17 36>;
         };
 
         tab {
