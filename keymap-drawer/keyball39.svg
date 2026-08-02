@@ -498,20 +498,28 @@ rect.held, rect.combo.held {
 <text x="203" y="158" class="combo tap"><tspan style="font-size: 60%">PRINTSCRE…</tspan></text>
 </g>
 <g class="combo combopos-1">
-<rect rx="6" ry="6" x="630" y="19" width="28" height="26" class="combo"/>
-<text x="644" y="32" class="combo tap">PgUp</text>
+<path d="M510,171 l40,-64" class="combo"/>
+<path d="M510,171 l-40,64" class="combo"/>
+<rect rx="6" ry="6" x="496" y="158" width="28" height="26" class="combo"/>
+<text x="510" y="171" class="combo tap">PgUp</text>
 </g>
 <g class="combo combopos-2">
-<rect rx="6" ry="6" x="630" y="75" width="28" height="26" class="combo"/>
-<text x="644" y="88" class="combo tap">PgDn</text>
+<path d="M540,161 l15,-52" class="combo"/>
+<path d="M540,161 l-15,52" class="combo"/>
+<rect rx="6" ry="6" x="526" y="148" width="28" height="26" class="combo"/>
+<text x="540" y="161" class="combo tap">PgDn</text>
 </g>
 <g class="combo combopos-3">
-<rect rx="6" ry="6" x="574" y="75" width="28" height="26" class="combo"/>
-<text x="588" y="88" class="combo tap">END</text>
+<path d="M538,167 l66,-70" class="combo"/>
+<path d="M538,167 l-66,70" class="combo"/>
+<rect rx="6" ry="6" x="524" y="154" width="28" height="26" class="combo"/>
+<text x="538" y="167" class="combo tap">END</text>
 </g>
 <g class="combo combopos-4">
-<rect rx="6" ry="6" x="574" y="19" width="28" height="26" class="combo"/>
-<text x="588" y="32" class="combo tap">HOME</text>
+<path d="M568,158 l38,-58" class="combo"/>
+<path d="M568,158 l-38,58" class="combo"/>
+<rect rx="6" ry="6" x="554" y="145" width="28" height="26" class="combo"/>
+<text x="568" y="158" class="combo tap">HOME</text>
 </g>
 <g class="combo combopos-5">
 <path d="M232,160 l-28,-53" class="combo"/>
@@ -744,20 +752,28 @@ rect.held, rect.combo.held {
 <text x="203" y="158" class="combo tap"><tspan style="font-size: 60%">PRINTSCRE…</tspan></text>
 </g>
 <g class="combo combopos-1">
-<rect rx="6" ry="6" x="630" y="19" width="28" height="26" class="combo"/>
-<text x="644" y="32" class="combo tap">PgUp</text>
+<path d="M510,171 l40,-64" class="combo"/>
+<path d="M510,171 l-40,64" class="combo"/>
+<rect rx="6" ry="6" x="496" y="158" width="28" height="26" class="combo"/>
+<text x="510" y="171" class="combo tap">PgUp</text>
 </g>
 <g class="combo combopos-2">
-<rect rx="6" ry="6" x="630" y="75" width="28" height="26" class="combo"/>
-<text x="644" y="88" class="combo tap">PgDn</text>
+<path d="M540,161 l15,-52" class="combo"/>
+<path d="M540,161 l-15,52" class="combo"/>
+<rect rx="6" ry="6" x="526" y="148" width="28" height="26" class="combo"/>
+<text x="540" y="161" class="combo tap">PgDn</text>
 </g>
 <g class="combo combopos-3">
-<rect rx="6" ry="6" x="574" y="75" width="28" height="26" class="combo"/>
-<text x="588" y="88" class="combo tap">END</text>
+<path d="M538,167 l66,-70" class="combo"/>
+<path d="M538,167 l-66,70" class="combo"/>
+<rect rx="6" ry="6" x="524" y="154" width="28" height="26" class="combo"/>
+<text x="538" y="167" class="combo tap">END</text>
 </g>
 <g class="combo combopos-4">
-<rect rx="6" ry="6" x="574" y="19" width="28" height="26" class="combo"/>
-<text x="588" y="32" class="combo tap">HOME</text>
+<path d="M568,158 l38,-58" class="combo"/>
+<path d="M568,158 l-38,58" class="combo"/>
+<rect rx="6" ry="6" x="554" y="145" width="28" height="26" class="combo"/>
+<text x="568" y="158" class="combo tap">HOME</text>
 </g>
 <g class="combo combopos-5">
 <path d="M232,160 l-28,-53" class="combo"/>
@@ -996,20 +1012,28 @@ rect.held, rect.combo.held {
 <text x="203" y="158" class="combo tap"><tspan style="font-size: 60%">PRINTSCRE…</tspan></text>
 </g>
 <g class="combo combopos-1">
-<rect rx="6" ry="6" x="630" y="19" width="28" height="26" class="combo"/>
-<text x="644" y="32" class="combo tap">PgUp</text>
+<path d="M510,171 l40,-64" class="combo"/>
+<path d="M510,171 l-40,64" class="combo"/>
+<rect rx="6" ry="6" x="496" y="158" width="28" height="26" class="combo"/>
+<text x="510" y="171" class="combo tap">PgUp</text>
 </g>
 <g class="combo combopos-2">
-<rect rx="6" ry="6" x="630" y="75" width="28" height="26" class="combo"/>
-<text x="644" y="88" class="combo tap">PgDn</text>
+<path d="M540,161 l15,-52" class="combo"/>
+<path d="M540,161 l-15,52" class="combo"/>
+<rect rx="6" ry="6" x="526" y="148" width="28" height="26" class="combo"/>
+<text x="540" y="161" class="combo tap">PgDn</text>
 </g>
 <g class="combo combopos-3">
-<rect rx="6" ry="6" x="574" y="75" width="28" height="26" class="combo"/>
-<text x="588" y="88" class="combo tap">END</text>
+<path d="M538,167 l66,-70" class="combo"/>
+<path d="M538,167 l-66,70" class="combo"/>
+<rect rx="6" ry="6" x="524" y="154" width="28" height="26" class="combo"/>
+<text x="538" y="167" class="combo tap">END</text>
 </g>
 <g class="combo combopos-4">
-<rect rx="6" ry="6" x="574" y="19" width="28" height="26" class="combo"/>
-<text x="588" y="32" class="combo tap">HOME</text>
+<path d="M568,158 l38,-58" class="combo"/>
+<path d="M568,158 l-38,58" class="combo"/>
+<rect rx="6" ry="6" x="554" y="145" width="28" height="26" class="combo"/>
+<text x="568" y="158" class="combo tap">HOME</text>
 </g>
 <g class="combo combopos-5">
 <path d="M232,160 l-28,-53" class="combo"/>
@@ -1237,20 +1261,28 @@ rect.held, rect.combo.held {
 <text x="203" y="158" class="combo tap"><tspan style="font-size: 60%">PRINTSCRE…</tspan></text>
 </g>
 <g class="combo combopos-1">
-<rect rx="6" ry="6" x="630" y="19" width="28" height="26" class="combo"/>
-<text x="644" y="32" class="combo tap">PgUp</text>
+<path d="M510,171 l40,-64" class="combo"/>
+<path d="M510,171 l-40,64" class="combo"/>
+<rect rx="6" ry="6" x="496" y="158" width="28" height="26" class="combo"/>
+<text x="510" y="171" class="combo tap">PgUp</text>
 </g>
 <g class="combo combopos-2">
-<rect rx="6" ry="6" x="630" y="75" width="28" height="26" class="combo"/>
-<text x="644" y="88" class="combo tap">PgDn</text>
+<path d="M540,161 l15,-52" class="combo"/>
+<path d="M540,161 l-15,52" class="combo"/>
+<rect rx="6" ry="6" x="526" y="148" width="28" height="26" class="combo"/>
+<text x="540" y="161" class="combo tap">PgDn</text>
 </g>
 <g class="combo combopos-3">
-<rect rx="6" ry="6" x="574" y="75" width="28" height="26" class="combo"/>
-<text x="588" y="88" class="combo tap">END</text>
+<path d="M538,167 l66,-70" class="combo"/>
+<path d="M538,167 l-66,70" class="combo"/>
+<rect rx="6" ry="6" x="524" y="154" width="28" height="26" class="combo"/>
+<text x="538" y="167" class="combo tap">END</text>
 </g>
 <g class="combo combopos-4">
-<rect rx="6" ry="6" x="574" y="19" width="28" height="26" class="combo"/>
-<text x="588" y="32" class="combo tap">HOME</text>
+<path d="M568,158 l38,-58" class="combo"/>
+<path d="M568,158 l-38,58" class="combo"/>
+<rect rx="6" ry="6" x="554" y="145" width="28" height="26" class="combo"/>
+<text x="568" y="158" class="combo tap">HOME</text>
 </g>
 <g class="combo combopos-5">
 <path d="M232,160 l-28,-53" class="combo"/>
@@ -1482,20 +1514,28 @@ rect.held, rect.combo.held {
 <text x="203" y="158" class="combo tap"><tspan style="font-size: 60%">PRINTSCRE…</tspan></text>
 </g>
 <g class="combo combopos-1">
-<rect rx="6" ry="6" x="630" y="19" width="28" height="26" class="combo"/>
-<text x="644" y="32" class="combo tap">PgUp</text>
+<path d="M510,171 l40,-64" class="combo"/>
+<path d="M510,171 l-40,64" class="combo"/>
+<rect rx="6" ry="6" x="496" y="158" width="28" height="26" class="combo"/>
+<text x="510" y="171" class="combo tap">PgUp</text>
 </g>
 <g class="combo combopos-2">
-<rect rx="6" ry="6" x="630" y="75" width="28" height="26" class="combo"/>
-<text x="644" y="88" class="combo tap">PgDn</text>
+<path d="M540,161 l15,-52" class="combo"/>
+<path d="M540,161 l-15,52" class="combo"/>
+<rect rx="6" ry="6" x="526" y="148" width="28" height="26" class="combo"/>
+<text x="540" y="161" class="combo tap">PgDn</text>
 </g>
 <g class="combo combopos-3">
-<rect rx="6" ry="6" x="574" y="75" width="28" height="26" class="combo"/>
-<text x="588" y="88" class="combo tap">END</text>
+<path d="M538,167 l66,-70" class="combo"/>
+<path d="M538,167 l-66,70" class="combo"/>
+<rect rx="6" ry="6" x="524" y="154" width="28" height="26" class="combo"/>
+<text x="538" y="167" class="combo tap">END</text>
 </g>
 <g class="combo combopos-4">
-<rect rx="6" ry="6" x="574" y="19" width="28" height="26" class="combo"/>
-<text x="588" y="32" class="combo tap">HOME</text>
+<path d="M568,158 l38,-58" class="combo"/>
+<path d="M568,158 l-38,58" class="combo"/>
+<rect rx="6" ry="6" x="554" y="145" width="28" height="26" class="combo"/>
+<text x="568" y="158" class="combo tap">HOME</text>
 </g>
 <g class="combo combopos-5">
 <path d="M232,160 l-28,-53" class="combo"/>
@@ -1714,20 +1754,28 @@ rect.held, rect.combo.held {
 <text x="203" y="158" class="combo tap"><tspan style="font-size: 60%">PRINTSCRE…</tspan></text>
 </g>
 <g class="combo combopos-1">
-<rect rx="6" ry="6" x="630" y="19" width="28" height="26" class="combo"/>
-<text x="644" y="32" class="combo tap">PgUp</text>
+<path d="M510,171 l40,-64" class="combo"/>
+<path d="M510,171 l-40,64" class="combo"/>
+<rect rx="6" ry="6" x="496" y="158" width="28" height="26" class="combo"/>
+<text x="510" y="171" class="combo tap">PgUp</text>
 </g>
 <g class="combo combopos-2">
-<rect rx="6" ry="6" x="630" y="75" width="28" height="26" class="combo"/>
-<text x="644" y="88" class="combo tap">PgDn</text>
+<path d="M540,161 l15,-52" class="combo"/>
+<path d="M540,161 l-15,52" class="combo"/>
+<rect rx="6" ry="6" x="526" y="148" width="28" height="26" class="combo"/>
+<text x="540" y="161" class="combo tap">PgDn</text>
 </g>
 <g class="combo combopos-3">
-<rect rx="6" ry="6" x="574" y="75" width="28" height="26" class="combo"/>
-<text x="588" y="88" class="combo tap">END</text>
+<path d="M538,167 l66,-70" class="combo"/>
+<path d="M538,167 l-66,70" class="combo"/>
+<rect rx="6" ry="6" x="524" y="154" width="28" height="26" class="combo"/>
+<text x="538" y="167" class="combo tap">END</text>
 </g>
 <g class="combo combopos-4">
-<rect rx="6" ry="6" x="574" y="19" width="28" height="26" class="combo"/>
-<text x="588" y="32" class="combo tap">HOME</text>
+<path d="M568,158 l38,-58" class="combo"/>
+<path d="M568,158 l-38,58" class="combo"/>
+<rect rx="6" ry="6" x="554" y="145" width="28" height="26" class="combo"/>
+<text x="568" y="158" class="combo tap">HOME</text>
 </g>
 <g class="combo combopos-5">
 <path d="M232,160 l-28,-53" class="combo"/>
@@ -1946,20 +1994,28 @@ rect.held, rect.combo.held {
 <text x="203" y="158" class="combo tap"><tspan style="font-size: 60%">PRINTSCRE…</tspan></text>
 </g>
 <g class="combo combopos-1">
-<rect rx="6" ry="6" x="630" y="19" width="28" height="26" class="combo"/>
-<text x="644" y="32" class="combo tap">PgUp</text>
+<path d="M510,171 l40,-64" class="combo"/>
+<path d="M510,171 l-40,64" class="combo"/>
+<rect rx="6" ry="6" x="496" y="158" width="28" height="26" class="combo"/>
+<text x="510" y="171" class="combo tap">PgUp</text>
 </g>
 <g class="combo combopos-2">
-<rect rx="6" ry="6" x="630" y="75" width="28" height="26" class="combo"/>
-<text x="644" y="88" class="combo tap">PgDn</text>
+<path d="M540,161 l15,-52" class="combo"/>
+<path d="M540,161 l-15,52" class="combo"/>
+<rect rx="6" ry="6" x="526" y="148" width="28" height="26" class="combo"/>
+<text x="540" y="161" class="combo tap">PgDn</text>
 </g>
 <g class="combo combopos-3">
-<rect rx="6" ry="6" x="574" y="75" width="28" height="26" class="combo"/>
-<text x="588" y="88" class="combo tap">END</text>
+<path d="M538,167 l66,-70" class="combo"/>
+<path d="M538,167 l-66,70" class="combo"/>
+<rect rx="6" ry="6" x="524" y="154" width="28" height="26" class="combo"/>
+<text x="538" y="167" class="combo tap">END</text>
 </g>
 <g class="combo combopos-4">
-<rect rx="6" ry="6" x="574" y="19" width="28" height="26" class="combo"/>
-<text x="588" y="32" class="combo tap">HOME</text>
+<path d="M568,158 l38,-58" class="combo"/>
+<path d="M568,158 l-38,58" class="combo"/>
+<rect rx="6" ry="6" x="554" y="145" width="28" height="26" class="combo"/>
+<text x="568" y="158" class="combo tap">HOME</text>
 </g>
 <g class="combo combopos-5">
 <path d="M232,160 l-28,-53" class="combo"/>
@@ -2178,20 +2234,28 @@ rect.held, rect.combo.held {
 <text x="203" y="158" class="combo tap"><tspan style="font-size: 60%">PRINTSCRE…</tspan></text>
 </g>
 <g class="combo combopos-1">
-<rect rx="6" ry="6" x="630" y="19" width="28" height="26" class="combo"/>
-<text x="644" y="32" class="combo tap">PgUp</text>
+<path d="M510,171 l40,-64" class="combo"/>
+<path d="M510,171 l-40,64" class="combo"/>
+<rect rx="6" ry="6" x="496" y="158" width="28" height="26" class="combo"/>
+<text x="510" y="171" class="combo tap">PgUp</text>
 </g>
 <g class="combo combopos-2">
-<rect rx="6" ry="6" x="630" y="75" width="28" height="26" class="combo"/>
-<text x="644" y="88" class="combo tap">PgDn</text>
+<path d="M540,161 l15,-52" class="combo"/>
+<path d="M540,161 l-15,52" class="combo"/>
+<rect rx="6" ry="6" x="526" y="148" width="28" height="26" class="combo"/>
+<text x="540" y="161" class="combo tap">PgDn</text>
 </g>
 <g class="combo combopos-3">
-<rect rx="6" ry="6" x="574" y="75" width="28" height="26" class="combo"/>
-<text x="588" y="88" class="combo tap">END</text>
+<path d="M538,167 l66,-70" class="combo"/>
+<path d="M538,167 l-66,70" class="combo"/>
+<rect rx="6" ry="6" x="524" y="154" width="28" height="26" class="combo"/>
+<text x="538" y="167" class="combo tap">END</text>
 </g>
 <g class="combo combopos-4">
-<rect rx="6" ry="6" x="574" y="19" width="28" height="26" class="combo"/>
-<text x="588" y="32" class="combo tap">HOME</text>
+<path d="M568,158 l38,-58" class="combo"/>
+<path d="M568,158 l-38,58" class="combo"/>
+<rect rx="6" ry="6" x="554" y="145" width="28" height="26" class="combo"/>
+<text x="568" y="158" class="combo tap">HOME</text>
 </g>
 <g class="combo combopos-5">
 <path d="M232,160 l-28,-53" class="combo"/>

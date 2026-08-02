@@ -323,13 +323,13 @@ layers:
 combos:
 - p: [13, 33]
   k: PRINTSCREEN
-- p: [7, 8]
+- p: [16, 36]
   k: PgUp
-- p: [17, 18]
+- p: [16, 37]
   k: PgDn
-- p: [16, 17]
+- p: [17, 36]
   k: END
-- p: [6, 7]
+- p: [17, 37]
   k: HOME
 - p: [13, 34]
   k: $$mdi:keyboard-tab$$
