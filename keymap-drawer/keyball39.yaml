@@ -20,7 +20,7 @@ layers:
   - {t: J, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: K, h: '$$mdi:apple-keyboard-control$$'}
   - {t: L, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: ;, h: ., s: ':'}
+  - {t: <, h: ;}
   - Z
   - X
   - {t: C, h: '$$mdi:alpha-w-box$$'}
