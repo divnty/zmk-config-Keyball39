@@ -424,7 +424,7 @@
             display-name = "0";
             bindings = <
 &kp Q            &kp W              &kp E             &kp R              &kp T                                    &kp Y      &kp U               &lpl INSERT I  &kp O             &lpl PAUSE_BREAK P
-&lpl LEFT_WIN A  &lpl LEFT_ALT S    &lpl LCTRL D      &lpl LEFT_SHIFT F  &stickylayer 1 G                         &lt 1 H    &lpl RIGHT_SHIFT J  &lpl RCTRL K   &lpl RIGHT_ALT L  &lpl APOS SEMICOLON
+&lpl LEFT_WIN A  &lpl LEFT_ALT S    &lpl LCTRL D      &lpl LEFT_SHIFT F  &stickylayer 1 G                         &lt 1 H    &lpl RIGHT_SHIFT J  &lpl RCTRL K   &lpl RIGHT_ALT L  &lpl SEMICOLON APOSTROPHE
 &kp Z            &kp X              &lplcapsword 0 C  &lt 2 V            &lpl LS(LC(B)) B                         &kp N      &lt 4 M             &kp COMMA      &kp PERIOD        &kp SLASH
 &kp GRAVE        &kp LS(LA(LC(D)))  &kp LC(C)         &kp BACKSPACE      &kp DEL           &kp ESCAPE  &kp ENTER  &kp SPACE                                                       &tog 4
             >;
