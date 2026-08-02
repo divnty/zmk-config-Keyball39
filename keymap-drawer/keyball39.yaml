@@ -327,9 +327,9 @@ combos:
   k: PgUp
 - p: [16, 37]
   k: PgDn
-- p: [17, 36]
-  k: END
 - p: [17, 37]
+  k: END
+- p: [17, 36]
   k: HOME
 - p: [13, 34]
   k: $$mdi:keyboard-tab$$
