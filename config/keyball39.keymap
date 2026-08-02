@@ -289,22 +289,22 @@
 
         win5 {
             bindings = <&kp PAGE_UP>;
-            key-positions = <7 8>;
+            key-positions = <16 36>;
         };
 
         win6 {
             bindings = <&kp PAGE_DOWN>;
-            key-positions = <17 18>;
+            key-positions = <16 37>;
         };
 
         win7 {
             bindings = <&kp END>;
-            key-positions = <16 17>;
+            key-positions = <17 36>;
         };
 
         hoe {
             bindings = <&kp HOME>;
-            key-positions = <6 7>;
+            key-positions = <17 37>;
         };
 
         tab {
