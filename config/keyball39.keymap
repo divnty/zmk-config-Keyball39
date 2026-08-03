@@ -504,6 +504,15 @@
 &kp ESC  &kp F1  &kp H  &kp SPACE  &kp LSHFT  &kp TAB  &kp ENTER  &kp SPACE                             &trans
             >;
         };
+
+        layer_8 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans                  &trans  &trans    &kp UP    &trans     &trans
+&trans  &trans  &trans  &trans  &trans                  &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &trans
+&trans  &trans  &trans  &trans  &trans                  &trans  &trans    &trans    &trans     &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                                 &trans
+            >;
+        };
     };
 
     conditional_layers { compatible = "zmk,conditional-layers"; };
