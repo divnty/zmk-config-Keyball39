@@ -437,7 +437,7 @@
 &lplnum NUMBER_1 Q  &lplnum NUMBER_2 W  &lplnum NUMBER_3 E  &lplnum NUMBER_4 R  &lplnum N5 T                             &lplnum NUMBER_6 Y  &lplnum N7 U        &lplnum N8 I      &lplnum N9 O       &lpl N0 P
 &lpl LEFT_WIN A     &lpl LEFT_ALT S     &lpl LCTRL D        &lpl LEFT_SHIFT F   &stickylayer 1 G                         &lt 1 H             &lpl RIGHT_SHIFT J  &lpl RCTRL K      &lpl RIGHT_ALT L   &lpl SEMICOLON APOSTROPHE
 &kp Z               &kp X               &lplcapsword 0 C    &lt 2 V             &lpl LS(LC(B)) B                         &kp N               &lt 4 M             &lpl MINUS COMMA  &lpl EQUAL PERIOD  &kp SLASH
-&kp GRAVE           &kp LS(LA(LC(D)))   &kp LC(C)           &kp BACKSPACE       &kp DEL           &kp ESCAPE  &kp ENTER  &kp SPACE                                                                    &tog 4
+&kp GRAVE           &kp LS(LA(LC(D)))   &kp LC(C)           &kp BACKSPACE       &kp DEL           &kp ESCAPE  &kp ENTER  &kp SPACE                                                                    &trans
             >;
         };
 
@@ -451,12 +451,12 @@
             >;
         };
 
-        layer_6 {
+        layer_8 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                  &trans                     &lpl AMPERSAND N7          &lpl ASTERISK N8       &lpl LEFT_PARENTHESIS N9  &lpl RIGHT_PARENTHESIS N0
-&trans  &trans  &trans  &trans  &trans                  &trans                     &lpl DOLLAR NUMBER_4       &lpl PERCENT N5        &lpl CARET NUMBER_6       &lpl UNDERSCORE MINUS
-&trans  &trans  &trans  &trans  &trans                  &lpl RIGHT_PARENTHESIS N0  &lpl EXCLAMATION NUMBER_1  &lpl AT_SIGN NUMBER_2  &lpl HASH NUMBER_3        &lpl PLUS EQUAL
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                                                                                                 &trans
+&trans  &trans  &trans  &trans  &trans                          &trans  &trans    &kp UP    &trans     &trans
+&trans  &trans  &trans  &trans  &trans                          &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &trans
+&trans  &trans  &trans  &trans  &trans                          &trans  &trans    &trans    &trans     &trans
+&trans  &trans  &trans  &trans  &trans  &kp LEFT_SHIFT  &trans  &trans                                 &trans
             >;
         };
 
@@ -471,10 +471,10 @@
 
         arrow {
             bindings = <
-&kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp UP_ARROW       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS                  &trans  &tog 4    &mo 5     &mo 6     &kp BACKSLASH
+&kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp UP_ARROW       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS                  &trans  &trans    &mo 5     &mo 6     &kp BACKSLASH
 &kp LC(C)         &kp LEFT_ARROW     &kp DOWN           &kp RIGHT             &kp LC(PRINTSCREEN)                    &trans  &mkp MB1  &mkp MB3  &mkp MB2  &trans
 &kp LC(LG(LEFT))  &kp LS(TAB)        &kp LS(LA(LC(D)))  &kp TAB               &kp LC(LG(RIGHT))                      &trans  &mkp MB4  &trans    &mkp MB5  &trans
-&trans            &trans             &trans             &trans                &trans                 &trans  &trans  &trans                                &trans
+&trans            &trans             &trans             &trans                &trans                 &trans  &trans  &tog 4                                &trans
             >;
         };
 
@@ -505,12 +505,12 @@
             >;
         };
 
-        layer_8 {
+        layer_6 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                  &trans  &trans    &kp UP    &trans     &trans
-&trans  &trans  &trans  &trans  &trans                  &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &trans
-&trans  &trans  &trans  &trans  &trans                  &trans  &trans    &trans    &trans     &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                                 &trans
+&trans  &trans  &trans  &trans  &trans                  &trans                     &lpl AMPERSAND N7          &lpl ASTERISK N8       &lpl LEFT_PARENTHESIS N9  &lpl RIGHT_PARENTHESIS N0
+&trans  &trans  &trans  &trans  &trans                  &trans                     &lpl DOLLAR NUMBER_4       &lpl PERCENT N5        &lpl CARET NUMBER_6       &lpl UNDERSCORE MINUS
+&trans  &trans  &trans  &trans  &trans                  &lpl RIGHT_PARENTHESIS N0  &lpl EXCLAMATION NUMBER_1  &lpl AT_SIGN NUMBER_2  &lpl HASH NUMBER_3        &lpl PLUS EQUAL
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                                                                                                 &trans
             >;
         };
     };
