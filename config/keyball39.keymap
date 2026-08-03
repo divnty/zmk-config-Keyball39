@@ -181,7 +181,7 @@
         righttop: righttop {
             compatible = "zmk,behavior-mod-morph";
             label = "RIGHTTOP";
-            bindings = <&lpl LA(F4) LA(LS(B))>, <&lpl LA(F4) LS(LC(A))>;
+            bindings = <&lpl LA(F4) LS(LC(A))>, <&lpl LA(F4) LS(LC(A))>;
 
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
