@@ -65,13 +65,13 @@ layers:
   - F10
   - F11
   - F12
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Ins
   - '&string'
   - Sft+F9
   - Sft+F10
   - Sft+F11
   - Sft+F12
-  - {t: '$$mdi:transfer$$', type: trans}
+  - PAUSE BREAK
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {h: '3', s: '$$mdi:bluetooth-connect$$'}
@@ -167,7 +167,7 @@ layers:
   - (
   - )
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: arrow, h: toggle}
   - snipe
   - scroll
   - {t: \, s: '|'}
