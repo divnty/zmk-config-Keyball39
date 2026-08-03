@@ -32,8 +32,8 @@ layers:
   - {t: ., h: '='}
   - {t: /, s: '?'}
   - {t: '`', s: '~'}
-  - Meh+D
-  - Ctl+C
+  - {t: Meh+D, h: 'Ctl+Gui+$$mdi:arrow-left-bold$$'}
+  - {t: Ctl+C, h: 'Ctl+Gui+$$mdi:arrow-right-bold$$'}
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:backspace-reverse-outline$$
   - $$mdi:keyboard-esc$$
@@ -127,7 +127,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: arrow, h: toggle}
+  - {t: '$$mdi:transfer$$', type: trans}
   - snipe
   - scroll
   - {t: \, s: '|'}
@@ -158,34 +158,34 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: arrow, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
   arrow:
-  - {t: '[', s: '{'}
-  - {t: ']', s: '}'}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:arrow-up-bold$$
-  - (
-  - )
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - snipe
   - scroll
   - {t: \, s: '|'}
-  - Ctl+C
+  - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
-  - Ctl+PRINTSCREEN
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - '&mkp MB1'
   - '&mkp MB3'
   - '&mkp MB2'
   - {t: '$$mdi:transfer$$', type: trans}
-  - Ctl+Gui+$$mdi:arrow-left-bold$$
-  - $$mdi:keyboard-tab-reverse$$
-  - Meh+D
-  - $$mdi:keyboard-tab$$
-  - Ctl+Gui+$$mdi:arrow-right-bold$$
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '&mkp MB4', type: held}
   - {t: '$$mdi:transfer$$', type: trans}
