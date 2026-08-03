@@ -39,7 +39,7 @@ layers:
   - $$mdi:keyboard-esc$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:keyboard-space$$
-  - {t: Alt+Sft+B, h: Alt+F4, s: Sft+Ctl+A}
+  - {t: Sft+Ctl+A, h: Alt+F4, s: Sft+Ctl+A}
   '4':
   - F1
   - F2
@@ -55,7 +55,7 @@ layers:
   - F6
   - F7
   - F8
-  - {t: Alt+Sft+B, h: Alt+F4, s: Sft+Ctl+A, type: held}
+  - {t: Sft+Ctl+A, h: Alt+F4, s: Sft+Ctl+A, type: held}
   - {t: '&string2', type: held alternate}
   - Sft+F5
   - Sft+F6
