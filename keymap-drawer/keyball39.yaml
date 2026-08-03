@@ -55,7 +55,7 @@ layers:
   - F6
   - F7
   - F8
-  - {t: Sft+Ctl+A, h: Alt+F4, s: Sft+Ctl+A, type: held}
+  - {t: '$$mdi:apple-keyboard-caps$$', type: held}
   - {t: '&string2', type: held alternate}
   - Sft+F5
   - Sft+F6
@@ -79,7 +79,7 @@ layers:
   - {h: '2', s: '$$mdi:bluetooth-connect$$'}
   - {h: '4', s: '$$mdi:bluetooth-connect$$'}
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
-  - $$mdi:apple-keyboard-caps$$
+  - {t: '$$mdi:transfer$$', type: trans}
   '8':
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
