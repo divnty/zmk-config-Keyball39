@@ -30,7 +30,7 @@ layers:
   - M
   - {t: ',', h: '-', s: <}
   - {t: ., h: '='}
-  - {t: \, h: /, s: '|'}
+  - {t: /, h: \, s: '?'}
   - {t: '`', s: '~'}
   - {t: Meh+D, h: 'Ctl+Gui+$$mdi:arrow-left-bold$$'}
   - {t: Ctl+C, h: 'Ctl+Gui+$$mdi:arrow-right-bold$$'}
