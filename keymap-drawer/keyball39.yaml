@@ -1,16 +1,16 @@
 layout: {zmk_keyboard: keyball39}
 layers:
   '0':
-  - Q
-  - W
-  - E
-  - R
-  - T
-  - Y
-  - U
-  - {t: I, h: Ins}
-  - O
-  - {t: P, h: PAUSE BREAK}
+  - {t: Q, h: '1'}
+  - {t: W, h: '2'}
+  - {t: E, h: '3'}
+  - {t: R, h: '4'}
+  - {t: T, h: '5'}
+  - {t: Y, h: '6'}
+  - {t: U, h: '7'}
+  - {t: I, h: '8'}
+  - {t: O, h: '9'}
+  - {t: P, h: '0'}
   - {t: A, h: LEFT WIN}
   - {t: S, h: '$$mdi:apple-keyboard-option$$'}
   - {t: D, h: '$$mdi:apple-keyboard-control$$'}
@@ -127,7 +127,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: automouse, h: toggle}
+  - {t: arrow, h: toggle}
   - snipe
   - scroll
   - {t: \, s: '|'}
