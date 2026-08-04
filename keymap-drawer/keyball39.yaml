@@ -27,7 +27,7 @@ layers:
   - {t: V, h: '8'}
   - {t: B, h: Sft+Ctl+B}
   - N
-  - {t: M, h: arrow}
+  - M
   - {t: ',', h: '-', s: <}
   - {t: ., h: '='}
   - {t: /, h: \, s: '?'}
@@ -137,7 +137,7 @@ layers:
   - {t: F, h: arrow}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: arrow, h: '$$mdi:gesture-tap-hold$$'}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: <, h: arrow}
@@ -174,10 +174,10 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held alternate}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - '&mkp MB4'
-  - {t: '&mkp MB1', type: held alternate}
+  - '&mkp MB1'
   - '&mkp MB3'
   - '&mkp MB2'
   - {t: '&mkp MB5', type: held alternate}
@@ -187,7 +187,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -217,7 +217,7 @@ layers:
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '&mkp MB1', type: held}
+  - '&mkp MB1'
   - '&mkp MB3'
   - '&mkp MB2'
   - {type: held}
@@ -227,7 +227,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -257,7 +257,7 @@ layers:
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '&mkp MB1', type: held}
+  - '&mkp MB1'
   - '&mkp MB3'
   - '&mkp MB2'
   - {type: held}
@@ -267,7 +267,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
