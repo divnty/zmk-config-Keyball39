@@ -297,6 +297,15 @@
             #binding-cells = <2>;
             tapping-term-ms = <180>;
         };
+
+        kpmo: kpmo {
+            compatible = "zmk,behavior-hold-tap";
+            label = "KPMO";
+            bindings = <&mo>, <&kp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <150>;
+        };
     };
 
     combos {
