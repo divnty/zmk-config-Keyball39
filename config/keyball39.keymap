@@ -95,6 +95,7 @@
             hold-while-undecided;
             hold-while-undecided-linger;
             hold-trigger-key-positions = <26>;
+            hold-trigger-on-release;
         };
 
         lplcapsword: lplcapsword {
