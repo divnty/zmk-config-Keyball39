@@ -137,7 +137,7 @@ layers:
   - {t: F, h: arrow}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: arrow, h: '$$mdi:gesture-tap-hold$$'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: <, h: arrow}
@@ -177,7 +177,7 @@ layers:
   - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - '&mkp MB4'
-  - '&mkp MB1'
+  - {t: '&mkp MB1', type: held alternate}
   - '&mkp MB3'
   - '&mkp MB2'
   - {t: '&mkp MB5', type: held alternate}
@@ -217,7 +217,7 @@ layers:
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - '&mkp MB1'
+  - {t: '&mkp MB1', type: held}
   - '&mkp MB3'
   - '&mkp MB2'
   - {type: held}
@@ -257,7 +257,7 @@ layers:
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - '&mkp MB1'
+  - {t: '&mkp MB1', type: held}
   - '&mkp MB3'
   - '&mkp MB2'
   - {type: held}
