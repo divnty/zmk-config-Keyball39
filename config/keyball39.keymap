@@ -15,8 +15,6 @@
 //&lt { flavor = "tap-preferred"; };
 //&mt { flavor = "tap-preferred"; };
 
-&sl { release-after-ms = <4294000000>; };
-
 / {
     behaviors {
         ahm: ahomerow_mods {
