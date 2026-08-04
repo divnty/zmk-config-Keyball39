@@ -485,7 +485,7 @@
         automouse {
             bindings = <
 &trans  &trans  &trans  &trans   &trans                  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &lt 4 F  &trans                  &trans  &trans  &trans  &trans  &stickylayer 4 APOSTROPHE
+&trans  &trans  &trans  &lt 4 F  &trans                  &trans  &sl 4   &trans  &trans  &stickylayer 4 APOSTROPHE
 &trans  &trans  &trans  &trans   &trans                  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans   &trans  &trans  &trans  &trans                          &trans
             >;
