@@ -471,10 +471,10 @@
 
         automouse {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                        &trans          &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans                        &trans          &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans                        &trans          &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &lt 4 ESCAPE  &trans  &kptog 4 SPACE                          &trans
+&trans  &trans  &trans  &trans  &trans                 &trans          &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans                 &trans          &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans                 &trans          &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &mo 4  &trans  &kptog 4 SPACE                          &trans
             >;
         };
 
