@@ -90,12 +90,8 @@
             bindings = <&sl>, <&kp>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <150>;
-            flavor = "hold-preferred";
-            hold-while-undecided;
-            hold-while-undecided-linger;
-            hold-trigger-key-positions = <26>;
-            hold-trigger-on-release;
+            tapping-term-ms = <90>;
+            flavor = "tap-preferred";
         };
 
         lplcapsword: lplcapsword {
@@ -458,7 +454,7 @@
             bindings = <
 &lplnum NUMBER_1 Q  &lplnum NUMBER_2 W               &lplnum NUMBER_3 E        &lplnum NUMBER_4 R  &lplnum N5 T                             &lplnum NUMBER_6 Y  &lplnum N7 U        &lplnum N8 I      &lplnum N9 O       &lplnum N0 P
 &lpl LEFT_WIN A     &lpl LEFT_ALT S                  &lpl LCTRL D              &lpl LEFT_SHIFT F   &stickylayer 1 G                         &lt 1 H             &lpl RIGHT_SHIFT J  &lpl RCTRL K      &lpl RIGHT_ALT L   &lpl SEMICOLON APOSTROPHE
-&kp Z               &kp X                            &lplcapsword 0 C          &lt 2 V             &lpl LS(LC(B)) B                         &kp N               &stickylayer 4 M    &lpl MINUS COMMA  &lpl EQUAL PERIOD  &lpl BACKSLASH SLASH
+&kp Z               &kp X                            &lplcapsword 0 C          &lt 2 V             &lpl LS(LC(B)) B                         &kp N               &kp M               &lpl MINUS COMMA  &lpl EQUAL PERIOD  &lpl BACKSLASH SLASH
 &kp GRAVE           &lpl LC(LG(LEFT)) LC(LA(LS(D)))  &lpl LC(LG(RIGHT)) LC(C)  &kp BACKSPACE       &kp DEL           &kp ESCAPE  &kp ENTER  &kp SPACE                                                                    &righttop
             >;
         };
@@ -485,7 +481,7 @@
         automouse {
             bindings = <
 &trans  &trans  &trans  &trans   &trans                  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &lt 4 F  &trans                  &trans  &sl 4   &trans  &trans  &stickylayer 4 APOSTROPHE
+&trans  &trans  &trans  &lt 4 F  &trans                  &trans  &trans  &trans  &trans  &stickylayer 4 APOSTROPHE
 &trans  &trans  &trans  &trans   &trans                  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans   &trans  &trans  &trans  &trans                          &trans
             >;
