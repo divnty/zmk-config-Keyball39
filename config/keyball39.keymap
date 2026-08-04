@@ -90,8 +90,8 @@
             bindings = <&sl>, <&kp>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <225>;
-            flavor = "tap-preferred";
+            tapping-term-ms = <150>;
+            flavor = "hold-preferred";
         };
 
         lplcapsword: lplcapsword {
@@ -480,19 +480,19 @@
 
         automouse {
             bindings = <
-&trans  &trans  &trans  &trans   &trans                  &trans          &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &lt 4 F  &trans                  &trans          &trans  &trans  &trans  &stickylayer 4 APOSTROPHE
-&trans  &trans  &trans  &trans   &trans                  &trans          &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans   &trans  &trans  &trans  &kptog 4 SPACE                          &trans
+&trans  &trans  &trans  &trans   &trans                  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &lt 4 F  &trans                  &trans  &trans  &trans  &trans  &stickylayer 4 APOSTROPHE
+&trans  &trans  &trans  &trans   &trans                  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans   &trans  &trans  &trans  &trans                          &trans
             >;
         };
 
         arrow {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                  &trans    &trans    &sl 5     &sl 6     &trans
-&trans  &trans  &trans  &trans  &trans                  &mkp MB4  &mkp MB1  &mkp MB3  &mkp MB2  &mkp MB5
-&trans  &trans  &trans  &trans  &trans                  &trans    &trans    &trans    &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &tog 4                                  &trans
+&trans  &trans  &trans  &trans  &trans                  &trans    &trans    &kpmo 5 I  &kpmo 6 O  &trans
+&trans  &trans  &trans  &trans  &trans                  &mkp MB4  &mkp MB1  &mkp MB3   &mkp MB2   &mkp MB5
+&trans  &trans  &trans  &trans  &trans                  &trans    &trans    &trans     &trans     &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &tog 4                                    &trans
             >;
         };
 
