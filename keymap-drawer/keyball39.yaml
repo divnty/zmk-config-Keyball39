@@ -176,11 +176,11 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
-  - '&mkp MB4'
+  - {t: '$$mdi:transfer$$', type: trans}
   - '&mkp MB1'
-  - '&mkp MB3'
-  - '&mkp MB2'
-  - {t: '&mkp MB5', type: held alternate}
+  - {t: '&mkp MB3', h: '&mkp MB4'}
+  - {t: '&mkp MB2', h: '&mkp MB5'}
+  - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
