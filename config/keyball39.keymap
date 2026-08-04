@@ -453,10 +453,10 @@
 
         layer_8 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                          &trans  &trans    &kp UP    &trans     &trans
-&trans  &trans  &trans  &trans  &trans                          &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &trans
-&trans  &trans  &trans  &trans  &trans                          &trans  &trans    &trans    &trans     &trans
-&trans  &trans  &trans  &trans  &trans  &kp LEFT_SHIFT  &trans  &trans                                 &trans
+&trans  &trans  &trans  &trans  &trans                          &trans  &kp PAGE_UP  &kp UP    &kp PAGE_DOWN  &trans
+&trans  &trans  &trans  &trans  &trans                          &trans  &kp LEFT     &kp DOWN  &kp RIGHT      &trans
+&trans  &trans  &trans  &trans  &trans                          &trans  &kp HOME     &trans    &kp END        &trans
+&trans  &trans  &trans  &trans  &trans  &kp LEFT_SHIFT  &trans  &trans                                        &trans
             >;
         };
 
