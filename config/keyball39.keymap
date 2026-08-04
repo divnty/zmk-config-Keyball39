@@ -15,6 +15,8 @@
 //&lt { flavor = "tap-preferred"; };
 //&mt { flavor = "tap-preferred"; };
 
+&sl { release-after-ms = <4294000000>; };
+
 / {
     behaviors {
         ahm: ahomerow_mods {
@@ -87,10 +89,10 @@
         stickylayer: stickylayer {
             compatible = "zmk,behavior-hold-tap";
             label = "STICKYLAYER";
-            bindings = <&sl>, <&kp>;
+            bindings = <&sl_mouse>, <&kp>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <185>;
+            tapping-term-ms = <150>;
             flavor = "tap-preferred";
         };
 
@@ -315,6 +317,14 @@
             #binding-cells = <2>;
             tapping-term-ms = <180>;
             flavor = "tap-preferred";
+        };
+
+        sl_mouse: sl_mouse {
+            compatible = "zmk,behavior-sticky-key";
+            label = "SL_MOUSE";
+            bindings = <&mo>;
+            #binding-cells = <1>;
+            release-after-ms = <4294000000>;
         };
     };
 
