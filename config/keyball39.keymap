@@ -35,7 +35,7 @@
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <150>;
+            tapping-term-ms = <160>;
             flavor = "tap-preferred";
             require-prior-idle-ms = <0>;
         };
@@ -90,7 +90,7 @@
             bindings = <&sl>, <&kp>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <150>;
+            tapping-term-ms = <205>;
             flavor = "hold-preferred";
         };
 
@@ -284,7 +284,7 @@
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <150>;
+            tapping-term-ms = <160>;
             flavor = "tap-preferred";
             require-prior-idle-ms = <0>;
         };
