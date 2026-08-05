@@ -237,10 +237,10 @@
         FKEYS {
             display-name = "FKEY";
             bindings = <
-&kp F1  &kp F2   &kp F3   &kp F4        &VOLDOWNBL 0 C_VOLUME_DOWN                              &VOLUPBL 0 C_VOLUME_UP  &kp LS(F1)  &kp LS(F2)   &kp LS(F3)   &kp LS(F4)
-&kp F5  &kp F6   &kp F7   &kp F8        &BRACKETS                                               &STRING2                &kp LS(F5)  &kp LS(F6)   &kp LS(F7)   &kp LS(F8)
-&kp F9  &kp F10  &kp F11  &kp F12       &BRACES                                                 &STRING                 &kp LS(F9)  &kp LS(F10)  &kp LS(F11)  &kp LS(F12)
-&trans  &trans   &trans   &bt BT_SEL 2  &bt BT_SEL 4                &bt BT_SEL 1  &bt BT_SEL 3  &bt BT_SEL 0                                                  &trans
+&kp F1  &kp F2     &kp F3   &kp F4        &VOLDOWNBL 0 C_VOLUME_DOWN                              &VOLUPBL 0 C_VOLUME_UP  &kp LS(F1)  &kp LS(F2)   &kp LS(F3)   &kp LS(F4)
+&kp F5  &kp F6     &kp F7   &kp F8        &msc SCRL_UP                                            &STRING2                &kp LS(F5)  &kp LS(F6)   &kp LS(F7)   &kp LS(F8)
+&kp F9  &kp F10    &kp F11  &kp F12       &msc SCRL_DOWN                                          &STRING                 &kp LS(F9)  &kp LS(F10)  &kp LS(F11)  &kp LS(F12)
+&trans  &BRACKETS  &BRACES  &bt BT_SEL 2  &bt BT_SEL 4                &bt BT_SEL 1  &bt BT_SEL 3  &bt BT_SEL 0                                                  &trans
             >;
         };
 
