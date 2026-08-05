@@ -179,7 +179,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '&mkp MB1', type: held alternate}
   - {t: '&mkp MB3', h: '&mkp MB4', type: held alternate}
-  - {t: '&mkp MB2', h: '&mkp MB5', type: held alternate}
+  - {t: '&mkp MB2', h: '&mkp MB5'}
   - {t: ., h: scroll, type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -373,9 +373,9 @@ combos:
   k: HOME
 - p: [13, 34]
   k: $$mdi:keyboard-tab$$
-- p: [16, 17]
-  k: {t: '$$mdi:backspace$$', type: backspace}
 - p: [16, 17, 18]
+  k: {t: '$$mdi:backspace$$', type: backspace}
+- p: [16, 17]
   k: {t: arrow, h: '$$mdi:gesture-tap-hold$$'}
 - p: [17, 18]
   k: $$mdi:keyboard-esc$$

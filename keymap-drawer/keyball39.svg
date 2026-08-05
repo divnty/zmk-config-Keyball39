@@ -549,16 +549,16 @@ rect.held, rect.combo.held {
 <use href="#mdi:keyboard-tab" xlink:href="#mdi:keyboard-tab" x="223" y="151" height="18" width="18.0" class="combo tap glyph mdi:keyboard-tab"/>
 </g>
 <g class="combo backspace combopos-6">
-<rect rx="6" ry="6" x="574" y="75" width="28" height="26" class="combo backspace"/>
-<use href="#mdi:backspace" xlink:href="#mdi:backspace" x="579" y="79" height="18" width="18.0" class="combo backspace tap glyph mdi:backspace"/>
-</g>
-<g class="combo combopos-7">
 <path d="M616,89 l-37,2" class="combo"/>
 <path d="M616,89 l37,2" class="combo"/>
-<rect rx="6" ry="6" x="602" y="76" width="28" height="26" class="combo"/>
+<rect rx="6" ry="6" x="602" y="76" width="28" height="26" class="combo backspace"/>
+<use href="#mdi:backspace" xlink:href="#mdi:backspace" x="607" y="80" height="18" width="18.0" class="combo backspace tap glyph mdi:backspace"/>
+</g>
+<g class="combo combopos-7">
+<rect rx="6" ry="6" x="574" y="75" width="28" height="26" class="combo"/>
 <a href="#arrow">
-<text x="616" y="89" class="combo tap layer-activator">arrow</text>
-</a><use href="#mdi:gesture-tap-hold" xlink:href="#mdi:gesture-tap-hold" x="608" y="85" height="15" width="15.0" class="combo hold glyph mdi:gesture-tap-hold"/>
+<text x="588" y="88" class="combo tap layer-activator">arrow</text>
+</a><use href="#mdi:gesture-tap-hold" xlink:href="#mdi:gesture-tap-hold" x="580" y="84" height="15" width="15.0" class="combo hold glyph mdi:gesture-tap-hold"/>
 </g>
 <g class="combo combopos-8">
 <rect rx="6" ry="6" x="630" y="75" width="28" height="26" class="combo"/>
@@ -816,16 +816,16 @@ rect.held, rect.combo.held {
 <use href="#mdi:keyboard-tab" xlink:href="#mdi:keyboard-tab" x="223" y="151" height="18" width="18.0" class="combo tap glyph mdi:keyboard-tab"/>
 </g>
 <g class="combo backspace combopos-6">
-<rect rx="6" ry="6" x="574" y="75" width="28" height="26" class="combo backspace"/>
-<use href="#mdi:backspace" xlink:href="#mdi:backspace" x="579" y="79" height="18" width="18.0" class="combo backspace tap glyph mdi:backspace"/>
-</g>
-<g class="combo combopos-7">
 <path d="M616,89 l-37,2" class="combo"/>
 <path d="M616,89 l37,2" class="combo"/>
-<rect rx="6" ry="6" x="602" y="76" width="28" height="26" class="combo"/>
+<rect rx="6" ry="6" x="602" y="76" width="28" height="26" class="combo backspace"/>
+<use href="#mdi:backspace" xlink:href="#mdi:backspace" x="607" y="80" height="18" width="18.0" class="combo backspace tap glyph mdi:backspace"/>
+</g>
+<g class="combo combopos-7">
+<rect rx="6" ry="6" x="574" y="75" width="28" height="26" class="combo"/>
 <a href="#arrow">
-<text x="616" y="89" class="combo tap layer-activator">arrow</text>
-</a><use href="#mdi:gesture-tap-hold" xlink:href="#mdi:gesture-tap-hold" x="608" y="85" height="15" width="15.0" class="combo hold glyph mdi:gesture-tap-hold"/>
+<text x="588" y="88" class="combo tap layer-activator">arrow</text>
+</a><use href="#mdi:gesture-tap-hold" xlink:href="#mdi:gesture-tap-hold" x="580" y="84" height="15" width="15.0" class="combo hold glyph mdi:gesture-tap-hold"/>
 </g>
 <g class="combo combopos-8">
 <rect rx="6" ry="6" x="630" y="75" width="28" height="26" class="combo"/>
@@ -1067,16 +1067,16 @@ rect.held, rect.combo.held {
 <use href="#mdi:keyboard-tab" xlink:href="#mdi:keyboard-tab" x="223" y="151" height="18" width="18.0" class="combo tap glyph mdi:keyboard-tab"/>
 </g>
 <g class="combo backspace combopos-6">
-<rect rx="6" ry="6" x="574" y="75" width="28" height="26" class="combo backspace"/>
-<use href="#mdi:backspace" xlink:href="#mdi:backspace" x="579" y="79" height="18" width="18.0" class="combo backspace tap glyph mdi:backspace"/>
-</g>
-<g class="combo combopos-7">
 <path d="M616,89 l-37,2" class="combo"/>
 <path d="M616,89 l37,2" class="combo"/>
-<rect rx="6" ry="6" x="602" y="76" width="28" height="26" class="combo"/>
+<rect rx="6" ry="6" x="602" y="76" width="28" height="26" class="combo backspace"/>
+<use href="#mdi:backspace" xlink:href="#mdi:backspace" x="607" y="80" height="18" width="18.0" class="combo backspace tap glyph mdi:backspace"/>
+</g>
+<g class="combo combopos-7">
+<rect rx="6" ry="6" x="574" y="75" width="28" height="26" class="combo"/>
 <a href="#arrow">
-<text x="616" y="89" class="combo tap layer-activator">arrow</text>
-</a><use href="#mdi:gesture-tap-hold" xlink:href="#mdi:gesture-tap-hold" x="608" y="85" height="15" width="15.0" class="combo hold glyph mdi:gesture-tap-hold"/>
+<text x="588" y="88" class="combo tap layer-activator">arrow</text>
+</a><use href="#mdi:gesture-tap-hold" xlink:href="#mdi:gesture-tap-hold" x="580" y="84" height="15" width="15.0" class="combo hold glyph mdi:gesture-tap-hold"/>
 </g>
 <g class="combo combopos-8">
 <rect rx="6" ry="6" x="630" y="75" width="28" height="26" class="combo"/>
@@ -1323,16 +1323,16 @@ rect.held, rect.combo.held {
 <use href="#mdi:keyboard-tab" xlink:href="#mdi:keyboard-tab" x="223" y="151" height="18" width="18.0" class="combo tap glyph mdi:keyboard-tab"/>
 </g>
 <g class="combo backspace combopos-6">
-<rect rx="6" ry="6" x="574" y="75" width="28" height="26" class="combo backspace"/>
-<use href="#mdi:backspace" xlink:href="#mdi:backspace" x="579" y="79" height="18" width="18.0" class="combo backspace tap glyph mdi:backspace"/>
-</g>
-<g class="combo combopos-7">
 <path d="M616,89 l-37,2" class="combo"/>
 <path d="M616,89 l37,2" class="combo"/>
-<rect rx="6" ry="6" x="602" y="76" width="28" height="26" class="combo"/>
+<rect rx="6" ry="6" x="602" y="76" width="28" height="26" class="combo backspace"/>
+<use href="#mdi:backspace" xlink:href="#mdi:backspace" x="607" y="80" height="18" width="18.0" class="combo backspace tap glyph mdi:backspace"/>
+</g>
+<g class="combo combopos-7">
+<rect rx="6" ry="6" x="574" y="75" width="28" height="26" class="combo"/>
 <a href="#arrow">
-<text x="616" y="89" class="combo tap layer-activator">arrow</text>
-</a><use href="#mdi:gesture-tap-hold" xlink:href="#mdi:gesture-tap-hold" x="608" y="85" height="15" width="15.0" class="combo hold glyph mdi:gesture-tap-hold"/>
+<text x="588" y="88" class="combo tap layer-activator">arrow</text>
+</a><use href="#mdi:gesture-tap-hold" xlink:href="#mdi:gesture-tap-hold" x="580" y="84" height="15" width="15.0" class="combo hold glyph mdi:gesture-tap-hold"/>
 </g>
 <g class="combo combopos-8">
 <rect rx="6" ry="6" x="630" y="75" width="28" height="26" class="combo"/>
@@ -1437,13 +1437,13 @@ rect.held, rect.combo.held {
 </text>
 <text x="0" y="24" class="key held alternate hold"><tspan style="font-size: 75%">&amp;mkp MB4</tspan></text>
 </g>
-<g transform="translate(672, 91)" class="key held alternate keypos-18">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key held alternate side"/>
-<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key held alternate"/>
-<text x="0" y="-4" class="key held alternate tap">
+<g transform="translate(672, 91)" class="key keypos-18">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
+<text x="0" y="-4" class="key tap">
 <tspan x="0" dy="-0.9em">&amp;mkp</tspan><tspan x="0" dy="1.2em">MB2</tspan>
 </text>
-<text x="0" y="24" class="key held alternate hold"><tspan style="font-size: 75%">&amp;mkp MB5</tspan></text>
+<text x="0" y="24" class="key hold"><tspan style="font-size: 75%">&amp;mkp MB5</tspan></text>
 </g>
 <g transform="translate(728, 105)" class="key held alternate keypos-19">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key held alternate side"/>
@@ -1582,16 +1582,16 @@ rect.held, rect.combo.held {
 <use href="#mdi:keyboard-tab" xlink:href="#mdi:keyboard-tab" x="223" y="151" height="18" width="18.0" class="combo tap glyph mdi:keyboard-tab"/>
 </g>
 <g class="combo backspace combopos-6">
-<rect rx="6" ry="6" x="574" y="75" width="28" height="26" class="combo backspace"/>
-<use href="#mdi:backspace" xlink:href="#mdi:backspace" x="579" y="79" height="18" width="18.0" class="combo backspace tap glyph mdi:backspace"/>
-</g>
-<g class="combo combopos-7">
 <path d="M616,89 l-37,2" class="combo"/>
 <path d="M616,89 l37,2" class="combo"/>
-<rect rx="6" ry="6" x="602" y="76" width="28" height="26" class="combo"/>
+<rect rx="6" ry="6" x="602" y="76" width="28" height="26" class="combo backspace"/>
+<use href="#mdi:backspace" xlink:href="#mdi:backspace" x="607" y="80" height="18" width="18.0" class="combo backspace tap glyph mdi:backspace"/>
+</g>
+<g class="combo combopos-7">
+<rect rx="6" ry="6" x="574" y="75" width="28" height="26" class="combo"/>
 <a href="#arrow">
-<text x="616" y="89" class="combo tap layer-activator">arrow</text>
-</a><use href="#mdi:gesture-tap-hold" xlink:href="#mdi:gesture-tap-hold" x="608" y="85" height="15" width="15.0" class="combo hold glyph mdi:gesture-tap-hold"/>
+<text x="588" y="88" class="combo tap layer-activator">arrow</text>
+</a><use href="#mdi:gesture-tap-hold" xlink:href="#mdi:gesture-tap-hold" x="580" y="84" height="15" width="15.0" class="combo hold glyph mdi:gesture-tap-hold"/>
 </g>
 <g class="combo combopos-8">
 <rect rx="6" ry="6" x="630" y="75" width="28" height="26" class="combo"/>
@@ -1840,16 +1840,16 @@ rect.held, rect.combo.held {
 <use href="#mdi:keyboard-tab" xlink:href="#mdi:keyboard-tab" x="223" y="151" height="18" width="18.0" class="combo tap glyph mdi:keyboard-tab"/>
 </g>
 <g class="combo backspace combopos-6">
-<rect rx="6" ry="6" x="574" y="75" width="28" height="26" class="combo backspace"/>
-<use href="#mdi:backspace" xlink:href="#mdi:backspace" x="579" y="79" height="18" width="18.0" class="combo backspace tap glyph mdi:backspace"/>
-</g>
-<g class="combo combopos-7">
 <path d="M616,89 l-37,2" class="combo"/>
 <path d="M616,89 l37,2" class="combo"/>
-<rect rx="6" ry="6" x="602" y="76" width="28" height="26" class="combo"/>
+<rect rx="6" ry="6" x="602" y="76" width="28" height="26" class="combo backspace"/>
+<use href="#mdi:backspace" xlink:href="#mdi:backspace" x="607" y="80" height="18" width="18.0" class="combo backspace tap glyph mdi:backspace"/>
+</g>
+<g class="combo combopos-7">
+<rect rx="6" ry="6" x="574" y="75" width="28" height="26" class="combo"/>
 <a href="#arrow">
-<text x="616" y="89" class="combo tap layer-activator">arrow</text>
-</a><use href="#mdi:gesture-tap-hold" xlink:href="#mdi:gesture-tap-hold" x="608" y="85" height="15" width="15.0" class="combo hold glyph mdi:gesture-tap-hold"/>
+<text x="588" y="88" class="combo tap layer-activator">arrow</text>
+</a><use href="#mdi:gesture-tap-hold" xlink:href="#mdi:gesture-tap-hold" x="580" y="84" height="15" width="15.0" class="combo hold glyph mdi:gesture-tap-hold"/>
 </g>
 <g class="combo combopos-8">
 <rect rx="6" ry="6" x="630" y="75" width="28" height="26" class="combo"/>
@@ -2094,16 +2094,16 @@ rect.held, rect.combo.held {
 <use href="#mdi:keyboard-tab" xlink:href="#mdi:keyboard-tab" x="223" y="151" height="18" width="18.0" class="combo tap glyph mdi:keyboard-tab"/>
 </g>
 <g class="combo backspace combopos-6">
-<rect rx="6" ry="6" x="574" y="75" width="28" height="26" class="combo backspace"/>
-<use href="#mdi:backspace" xlink:href="#mdi:backspace" x="579" y="79" height="18" width="18.0" class="combo backspace tap glyph mdi:backspace"/>
-</g>
-<g class="combo combopos-7">
 <path d="M616,89 l-37,2" class="combo"/>
 <path d="M616,89 l37,2" class="combo"/>
-<rect rx="6" ry="6" x="602" y="76" width="28" height="26" class="combo"/>
+<rect rx="6" ry="6" x="602" y="76" width="28" height="26" class="combo backspace"/>
+<use href="#mdi:backspace" xlink:href="#mdi:backspace" x="607" y="80" height="18" width="18.0" class="combo backspace tap glyph mdi:backspace"/>
+</g>
+<g class="combo combopos-7">
+<rect rx="6" ry="6" x="574" y="75" width="28" height="26" class="combo"/>
 <a href="#arrow">
-<text x="616" y="89" class="combo tap layer-activator">arrow</text>
-</a><use href="#mdi:gesture-tap-hold" xlink:href="#mdi:gesture-tap-hold" x="608" y="85" height="15" width="15.0" class="combo hold glyph mdi:gesture-tap-hold"/>
+<text x="588" y="88" class="combo tap layer-activator">arrow</text>
+</a><use href="#mdi:gesture-tap-hold" xlink:href="#mdi:gesture-tap-hold" x="580" y="84" height="15" width="15.0" class="combo hold glyph mdi:gesture-tap-hold"/>
 </g>
 <g class="combo combopos-8">
 <rect rx="6" ry="6" x="630" y="75" width="28" height="26" class="combo"/>
@@ -2350,16 +2350,16 @@ rect.held, rect.combo.held {
 <use href="#mdi:keyboard-tab" xlink:href="#mdi:keyboard-tab" x="223" y="151" height="18" width="18.0" class="combo tap glyph mdi:keyboard-tab"/>
 </g>
 <g class="combo backspace combopos-6">
-<rect rx="6" ry="6" x="574" y="75" width="28" height="26" class="combo backspace"/>
-<use href="#mdi:backspace" xlink:href="#mdi:backspace" x="579" y="79" height="18" width="18.0" class="combo backspace tap glyph mdi:backspace"/>
-</g>
-<g class="combo combopos-7">
 <path d="M616,89 l-37,2" class="combo"/>
 <path d="M616,89 l37,2" class="combo"/>
-<rect rx="6" ry="6" x="602" y="76" width="28" height="26" class="combo"/>
+<rect rx="6" ry="6" x="602" y="76" width="28" height="26" class="combo backspace"/>
+<use href="#mdi:backspace" xlink:href="#mdi:backspace" x="607" y="80" height="18" width="18.0" class="combo backspace tap glyph mdi:backspace"/>
+</g>
+<g class="combo combopos-7">
+<rect rx="6" ry="6" x="574" y="75" width="28" height="26" class="combo"/>
 <a href="#arrow">
-<text x="616" y="89" class="combo tap layer-activator">arrow</text>
-</a><use href="#mdi:gesture-tap-hold" xlink:href="#mdi:gesture-tap-hold" x="608" y="85" height="15" width="15.0" class="combo hold glyph mdi:gesture-tap-hold"/>
+<text x="588" y="88" class="combo tap layer-activator">arrow</text>
+</a><use href="#mdi:gesture-tap-hold" xlink:href="#mdi:gesture-tap-hold" x="580" y="84" height="15" width="15.0" class="combo hold glyph mdi:gesture-tap-hold"/>
 </g>
 <g class="combo combopos-8">
 <rect rx="6" ry="6" x="630" y="75" width="28" height="26" class="combo"/>
@@ -2628,16 +2628,16 @@ rect.held, rect.combo.held {
 <use href="#mdi:keyboard-tab" xlink:href="#mdi:keyboard-tab" x="223" y="151" height="18" width="18.0" class="combo tap glyph mdi:keyboard-tab"/>
 </g>
 <g class="combo backspace combopos-6">
-<rect rx="6" ry="6" x="574" y="75" width="28" height="26" class="combo backspace"/>
-<use href="#mdi:backspace" xlink:href="#mdi:backspace" x="579" y="79" height="18" width="18.0" class="combo backspace tap glyph mdi:backspace"/>
-</g>
-<g class="combo combopos-7">
 <path d="M616,89 l-37,2" class="combo"/>
 <path d="M616,89 l37,2" class="combo"/>
-<rect rx="6" ry="6" x="602" y="76" width="28" height="26" class="combo"/>
+<rect rx="6" ry="6" x="602" y="76" width="28" height="26" class="combo backspace"/>
+<use href="#mdi:backspace" xlink:href="#mdi:backspace" x="607" y="80" height="18" width="18.0" class="combo backspace tap glyph mdi:backspace"/>
+</g>
+<g class="combo combopos-7">
+<rect rx="6" ry="6" x="574" y="75" width="28" height="26" class="combo"/>
 <a href="#arrow">
-<text x="616" y="89" class="combo tap layer-activator">arrow</text>
-</a><use href="#mdi:gesture-tap-hold" xlink:href="#mdi:gesture-tap-hold" x="608" y="85" height="15" width="15.0" class="combo hold glyph mdi:gesture-tap-hold"/>
+<text x="588" y="88" class="combo tap layer-activator">arrow</text>
+</a><use href="#mdi:gesture-tap-hold" xlink:href="#mdi:gesture-tap-hold" x="580" y="84" height="15" width="15.0" class="combo hold glyph mdi:gesture-tap-hold"/>
 </g>
 <g class="combo combopos-8">
 <rect rx="6" ry="6" x="630" y="75" width="28" height="26" class="combo"/>
