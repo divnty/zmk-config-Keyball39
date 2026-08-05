@@ -140,7 +140,7 @@
         compatible = "zmk,combos";
 
         CMB_BACKSPACE {
-            bindings = <&mo 4>;
+            bindings = <&SL_MOUSE 3>;
             key-positions = <16 17 18>;
         };
 
@@ -167,6 +167,11 @@
         MAIN {
             bindings = <&to 0>;
             key-positions = <12 11 13>;
+        };
+
+        mb3 {
+            bindings = <&mkp MB3>;
+            key-positions = <18 16>;
         };
     };
 
