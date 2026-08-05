@@ -140,7 +140,7 @@ layers:
   - {t: '&mkp MB1', type: held}
   - {t: '&mkp MB3', h: '&mkp MB4', type: held}
   - {t: '&mkp MB2', h: '&mkp MB5'}
-  - {t: ., h: SCRO}
+  - {t: ., h: '4'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -160,7 +160,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  SCRO:
+  '4':
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
