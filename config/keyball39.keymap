@@ -517,8 +517,8 @@
 
         arrow {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                  &trans  &trans    &kpmo 5 I        &kpmo 6 O        &trans
-&trans  &trans  &trans  &trans  &trans                  &trans  &mkp MB1  &mkpmkp MB4 MB3  &mkpmkp MB5 MB2  &trans
+&trans  &trans  &trans  &trans  &trans                  &trans  &trans    &trans           &trans           &trans
+&trans  &trans  &trans  &trans  &trans                  &trans  &mkp MB1  &mkpmkp MB4 MB3  &mkpmkp MB5 MB2  &kpmo 6 APOS
 &trans  &trans  &trans  &trans  &trans                  &trans  &trans    &trans           &trans           &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                                              &trans
             >;
