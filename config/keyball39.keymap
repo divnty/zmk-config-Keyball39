@@ -140,17 +140,17 @@
         compatible = "zmk,combos";
 
         CMB_BACKSPACE {
-            bindings = <&kp BACKSPACE>;
+            bindings = <&mo 4>;
             key-positions = <16 17 18>;
         };
 
         CMB_SL_MOUSE {
-            bindings = <&SL_MOUSE 3>;
+            bindings = <&mkp MB1>;
             key-positions = <16 17>;
         };
 
         CMB_ESC {
-            bindings = <&kp ESCAPE>;
+            bindings = <&mkp MB2>;
             key-positions = <17 18>;
         };
 
@@ -213,10 +213,10 @@
         MAIN {
             display-name = "MAIN";
             bindings = <
-&AHMNUM NUMBER_1 Q  &AHMNUM NUMBER_2 W               &AHMNUM NUMBER_3 E        &AHM_SLOWER NUMBER_4 R  &AHMNUM N5 T                             &AHMNUM NUMBER_6 Y  &AHM_SLOWER N7 U    &AHMNUM N8 I      &AHMNUM N9 O       &AHMNUM N0 P
-&AHM LEFT_WIN A     &AHM LEFT_ALT S                  &AHM LCTRL D              &AHM LEFT_SHIFT F       &SL_FKEYS 1 G                            &lt 1 H             &AHM RIGHT_SHIFT J  &AHM RCTRL K      &AHM RIGHT_ALT L   &AHM SEMICOLON APOSTROPHE
-&AHM CAPS Z         &AHM PRINTSCREEN X               &AHMCAPSWORD 0 C          &lt 2 V                 &AHM LS(LC(B)) B                         &AHM INSERT N       &AHM PAUSE_BREAK M  &AHM MINUS COMMA  &AHM EQUAL PERIOD  &AHM BACKSLASH SLASH
-&KPTOG 5 GRAVE      &AHM LC(LG(LEFT)) LC(LA(LS(D)))  &AHM LC(LG(RIGHT)) LC(C)  &kp BACKSPACE           &kp DEL           &kp ESCAPE  &kp ENTER  &kp SPACE                                                                    &ALTF4SEARCH
+&AHMNUM NUMBER_1 Q  &AHMNUM NUMBER_2 W               &AHMNUM NUMBER_3 E        &AHM_SLOWER NUMBER_4 R  &AHMNUM N5 T                              &AHMNUM NUMBER_6 Y  &AHM_SLOWER N7 U    &AHMNUM N8 I      &AHMNUM N9 O       &AHMNUM N0 P
+&AHM LEFT_WIN A     &AHM LEFT_ALT S                  &AHM LCTRL D              &AHM LEFT_SHIFT F       &SL_FKEYS 1 G                             &lt 1 H             &AHM RIGHT_SHIFT J  &AHM RCTRL K      &AHM RIGHT_ALT L   &AHM SEMICOLON APOSTROPHE
+&AHM CAPS Z         &AHM PRINTSCREEN X               &AHMCAPSWORD 0 C          &lt 2 V                 &AHM LS(LC(B)) B                          &AHM INSERT N       &AHM PAUSE_BREAK M  &AHM MINUS COMMA  &AHM EQUAL PERIOD  &AHM BACKSLASH SLASH
+&KPTOG 5 GRAVE      &AHM LC(LG(LEFT)) LC(LA(LS(D)))  &AHM LC(LG(RIGHT)) LC(C)  &kp BACKSPACE           &kp DEL           &KPMO 4 ESC  &kp ENTER  &kp SPACE                                                                    &ALTF4SEARCH
             >;
         };
 
