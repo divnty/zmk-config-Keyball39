@@ -1,5 +1,5 @@
-#define ZMK_POINTING_DEFAULT_MOVE_VAL 1500  // default: 600
-#define ZMK_POINTING_DEFAULT_SCRL_VAL 20    // default: 10
+#define ZMK_POINTING_DEFAULT_MOVE_VAL 3200  // default: 600
+#define ZMK_POINTING_DEFAULT_SCRL_VAL 10    // default: 10
 #define MOVE_NORMAL  <&kp MOUSE_MOVE_X>  // default layer’s pointer
 #define MOVE_SLOW    <&kp MOUSE_MOVE_X_1>  // slower
 #define MOVE_FAST    <&kp MOUSE_MOVE_X_3>  // faster
