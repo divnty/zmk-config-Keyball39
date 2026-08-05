@@ -27,7 +27,7 @@ layers:
   - {t: V, h: NAV}
   - {t: B, h: Sft+Ctl+B}
   - {t: N, h: Ins}
-  - {t: M, h: PAUSE BREAK}
+  - {t: M, h: '&mkp MB1'}
   - {t: ',', h: '-', s: <}
   - {t: ., h: '='}
   - {t: /, h: \, s: '?'}
@@ -244,7 +244,7 @@ combos:
 - p: [16, 17, 18]
   k: {t: MOUSE, h: '$$mdi:gesture-tap-hold$$'}
 - p: [16, 17]
-  k: '&mkp MB1'
+  k: SCROL
 - p: [17, 18]
   k: '&mkp MB2'
 - p: [13, 12]
