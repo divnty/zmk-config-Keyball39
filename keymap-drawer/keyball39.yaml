@@ -179,7 +179,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held alternate}
   - {type: held alternate}
-  - {type: held alternate}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -255,5 +255,3 @@ combos:
   k: {t: MAIN, h: toggle}
 - p: [18, 16]
   k: '&mkp MB3'
-- p: [16, 17, 18, 19]
-  k: SCROL
