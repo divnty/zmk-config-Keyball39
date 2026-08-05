@@ -139,32 +139,32 @@
     combos {
         compatible = "zmk,combos";
 
-        backspace {
+        CMB_BACKSPACE {
             bindings = <&kp BACKSPACE>;
             key-positions = <16 17 18>;
         };
 
-        msl {
+        CMB_SL_MOUSE {
             bindings = <&SL_MOUSE 3>;
             key-positions = <16 17>;
         };
 
-        esc {
+        CMB_ESC {
             bindings = <&kp ESCAPE>;
             key-positions = <17 18>;
         };
 
-        tab2 {
+        CMB_TAB {
             bindings = <&kp TAB>;
             key-positions = <13 12>;
         };
 
-        btab {
+        CMB_BTAB {
             bindings = <&kp LS(TAB)>;
             key-positions = <12 11>;
         };
 
-        BASE {
+        MAIN {
             bindings = <&to 0>;
             key-positions = <12 11 13>;
         };
