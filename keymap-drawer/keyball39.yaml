@@ -21,13 +21,13 @@ layers:
   - {t: K, h: '$$mdi:apple-keyboard-control$$'}
   - {t: L, h: '$$mdi:apple-keyboard-option$$'}
   - {t: <, h: ;}
-  - Z
-  - X
+  - {t: Z, h: '$$mdi:apple-keyboard-caps$$'}
+  - {t: X, h: PRINTSCREEN}
   - {t: C, h: '$$mdi:alpha-w-box$$'}
   - {t: V, h: '8'}
   - {t: B, h: Sft+Ctl+B}
-  - N
-  - M
+  - {t: N, h: Ins}
+  - {t: M, h: PAUSE BREAK}
   - {t: ',', h: '-', s: <}
   - {t: ., h: '='}
   - {t: /, h: \, s: '?'}
