@@ -35,7 +35,7 @@
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <160>;
+            tapping-term-ms = <170>;
             flavor = "tap-preferred";
             require-prior-idle-ms = <0>;
         };
@@ -284,7 +284,7 @@
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <160>;
+            tapping-term-ms = <170>;
             flavor = "tap-preferred";
             require-prior-idle-ms = <0>;
         };
@@ -512,8 +512,8 @@
             display-name = "1";
             bindings = <
 &kp F1  &kp F2   &kp F3   &kp F4        &volumedownleftbootloader 0 C_VOLUME_DOWN                              &volumuprightbootloader 0 C_VOLUME_UP  &kp LS(F1)  &kp LS(F2)   &kp LS(F3)   &kp LS(F4)
-&kp F5  &kp F6   &kp F7   &kp F8        &kp K_MUTE                                                             &string2                               &kp LS(F5)  &kp LS(F6)   &kp LS(F7)   &kp LS(F8)
-&kp F9  &kp F10  &kp F11  &kp F12       &trans                                                                 &string                                &kp LS(F9)  &kp LS(F10)  &kp LS(F11)  &kp LS(F12)
+&kp F5  &kp F6   &kp F7   &kp F8        &brack                                                                 &string2                               &kp LS(F5)  &kp LS(F6)   &kp LS(F7)   &kp LS(F8)
+&kp F9  &kp F10  &kp F11  &kp F12       &brace                                                                 &string                                &kp LS(F9)  &kp LS(F10)  &kp LS(F11)  &kp LS(F12)
 &trans  &trans   &trans   &bt BT_SEL 2  &bt BT_SEL 4                               &bt BT_SEL 1  &bt BT_SEL 3  &bt BT_SEL 0                                                                 &trans
             >;
         };
