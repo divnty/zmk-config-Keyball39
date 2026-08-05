@@ -143,6 +143,15 @@
             #binding-cells = <2>;
             tapping-term-ms = <180>;
         };
+
+        mkpmo: mkpmo {
+            compatible = "zmk,behavior-hold-tap";
+            label = "MKPMO";
+            bindings = <&mo>, <&mkp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <180>;
+        };
     };
 
     combos {
@@ -179,7 +188,7 @@
         };
 
         mb3 {
-            bindings = <&mkp MB3>;
+            bindings = <&mkpmo 4 MB3>;
             key-positions = <18 16>;
         };
     };
