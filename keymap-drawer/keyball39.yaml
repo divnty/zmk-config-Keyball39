@@ -256,4 +256,4 @@ combos:
 - p: [18, 16]
   k: '&mkp MB3'
 - p: [16, 17, 18, 19]
-  k: {t: SCROL, h: '$$mdi:gesture-tap-hold$$'}
+  k: SCROL

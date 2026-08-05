@@ -570,8 +570,7 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="630" y="80" width="28" height="26" class="combo"/>
 <a href="#SCROL">
 <text x="644" y="93" class="combo tap layer-activator">SCROL</text>
-</a><use href="#mdi:gesture-tap-hold" xlink:href="#mdi:gesture-tap-hold" x="636" y="89" height="15" width="15.0" class="combo hold glyph mdi:gesture-tap-hold"/>
-</g>
+</a></g>
 </g>
 </g>
 <g transform="translate(40, 344)" class="layer-FKEY">
@@ -835,8 +834,7 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="630" y="80" width="28" height="26" class="combo"/>
 <a href="#SCROL">
 <text x="644" y="93" class="combo tap layer-activator">SCROL</text>
-</a><use href="#mdi:gesture-tap-hold" xlink:href="#mdi:gesture-tap-hold" x="636" y="89" height="15" width="15.0" class="combo hold glyph mdi:gesture-tap-hold"/>
-</g>
+</a></g>
 </g>
 </g>
 <g transform="translate(40, 688)" class="layer-NAV">
@@ -1086,8 +1084,7 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="630" y="80" width="28" height="26" class="combo"/>
 <a href="#SCROL">
 <text x="644" y="93" class="combo tap layer-activator">SCROL</text>
-</a><use href="#mdi:gesture-tap-hold" xlink:href="#mdi:gesture-tap-hold" x="636" y="89" height="15" width="15.0" class="combo hold glyph mdi:gesture-tap-hold"/>
-</g>
+</a></g>
 </g>
 </g>
 <g transform="translate(40, 1031)" class="layer-MOUSE">
@@ -1348,8 +1345,7 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="630" y="80" width="28" height="26" class="combo"/>
 <a href="#SCROL">
 <text x="644" y="93" class="combo tap layer-activator">SCROL</text>
-</a><use href="#mdi:gesture-tap-hold" xlink:href="#mdi:gesture-tap-hold" x="636" y="89" height="15" width="15.0" class="combo hold glyph mdi:gesture-tap-hold"/>
-</g>
+</a></g>
 </g>
 </g>
 <g transform="translate(40, 1375)" class="layer-SCROL">
@@ -1596,8 +1592,7 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="630" y="80" width="28" height="26" class="combo"/>
 <a href="#SCROL">
 <text x="644" y="93" class="combo tap layer-activator">SCROL</text>
-</a><use href="#mdi:gesture-tap-hold" xlink:href="#mdi:gesture-tap-hold" x="636" y="89" height="15" width="15.0" class="combo hold glyph mdi:gesture-tap-hold"/>
-</g>
+</a></g>
 </g>
 </g>
 <g transform="translate(40, 1719)" class="layer-GAME">
@@ -1852,8 +1847,7 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="630" y="80" width="28" height="26" class="combo"/>
 <a href="#SCROL">
 <text x="644" y="93" class="combo tap layer-activator">SCROL</text>
-</a><use href="#mdi:gesture-tap-hold" xlink:href="#mdi:gesture-tap-hold" x="636" y="89" height="15" width="15.0" class="combo hold glyph mdi:gesture-tap-hold"/>
-</g>
+</a></g>
 </g>
 </g>
 </svg>
