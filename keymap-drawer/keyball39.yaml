@@ -55,8 +55,8 @@ layers:
   - F6
   - F7
   - F8
-  - {t: '&brack', type: held}
-  - {t: '&string2', type: held alternate}
+  - {t: '&BRACKETS', type: held}
+  - {t: '&STRING2', type: held alternate}
   - Sft+F5
   - Sft+F6
   - Sft+F7
@@ -65,8 +65,8 @@ layers:
   - F10
   - F11
   - F12
-  - '&brace'
-  - '&string'
+  - '&BRACES'
+  - '&STRING'
   - Sft+F9
   - Sft+F10
   - Sft+F11
