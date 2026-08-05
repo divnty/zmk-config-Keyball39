@@ -10,6 +10,13 @@
     col-offset = <6>;
 };
 
+/ {
+    zip_xy_multiplier: zip_xy_multiplier {
+        compatible = "zmk,input-processor-multiplier";
+        #input-processor-cells = <2>;
+    };
+};
+
 &kscan0 {
 	col-gpios
 		= <&pro_micro 4 GPIO_ACTIVE_HIGH>
