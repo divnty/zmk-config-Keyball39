@@ -36,7 +36,7 @@ layers:
   - {t: Ctl+C, h: 'Ctl+Gui+$$mdi:arrow-right-bold$$'}
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:backspace-reverse-outline$$
-  - {t: '$$mdi:keyboard-esc$$', h: arrow}
+  - $$mdi:keyboard-esc$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:keyboard-space$$
   - {t: Sft+Ctl+A, h: Alt+F4, s: Sft+Ctl+A}
@@ -55,7 +55,7 @@ layers:
   - F6
   - F7
   - F8
-  - {t: '$$mdi:volume-off$$', type: held}
+  - {t: MUTE, type: held}
   - {t: '&string2', type: held alternate}
   - Sft+F5
   - Sft+F6
@@ -174,7 +174,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held alternate}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '&mkp MB1', type: held alternate}
@@ -196,7 +196,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -276,7 +276,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -361,21 +361,13 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
-- p: [13, 33]
-  k: PRINTSCREEN
-- p: [16, 36]
-  k: PgUp
-- p: [16, 37]
-  k: PgDn
-- p: [17, 37]
-  k: END
-- p: [17, 36]
-  k: HOME
-- p: [13, 34]
-  k: $$mdi:keyboard-tab$$
 - p: [16, 17, 18]
   k: {t: '$$mdi:backspace$$', type: backspace}
 - p: [16, 17]
   k: {t: arrow, h: '$$mdi:gesture-tap-hold$$'}
 - p: [17, 18]
   k: $$mdi:keyboard-esc$$
+- p: [13, 12]
+  k: $$mdi:keyboard-tab$$
+- p: [12, 11]
+  k: $$mdi:keyboard-tab-reverse$$
