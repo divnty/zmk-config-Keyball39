@@ -366,7 +366,7 @@
         };
 
         msl {
-            bindings = <&sl_mouse 4>;
+            bindings = <&sl_mouse 3>;
             key-positions = <16 17>;
         };
 
@@ -503,8 +503,8 @@
             >;
         };
 
-        cc {
-            display-name = "4";
+        FKEYS {
+            display-name = "1";
             bindings = <
 &kp F1  &kp F2   &kp F3   &kp F4        &volumedownleftbootloader 0 C_VOLUME_DOWN                              &volumuprightbootloader 0 C_VOLUME_UP  &kp LS(F1)  &kp LS(F2)   &kp LS(F3)   &kp LS(F4)
 &kp F5  &kp F6   &kp F7   &kp F8        &kp K_MUTE                                                             &string2                               &kp LS(F5)  &kp LS(F6)   &kp LS(F7)   &kp LS(F8)
@@ -513,67 +513,48 @@
             >;
         };
 
-        layer_8 {
+        NAV {
             bindings = <
 &trans  &trans  &trans  &trans  &trans                  &trans  &kp PAGE_UP  &kp UP    &kp PAGE_DOWN  &trans
 &trans  &trans  &trans  &trans  &trans                  &trans  &kp LEFT     &kp DOWN  &kp RIGHT      &trans
 &trans  &trans  &trans  &trans  &trans                  &trans  &kp HOME     &trans    &kp END        &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                                        &trans
             >;
+
+            label = "2";
         };
 
-        automouse {
-            bindings = <
-&trans  &trans  &trans  &trans   &trans                  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &lt 4 F  &trans                  &trans  &trans  &trans  &trans  &stickylayer 4 APOS
-&trans  &trans  &trans  &trans   &trans                  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans   &trans  &trans  &trans  &trans                          &trans
-            >;
-        };
-
-        arrow {
+        MOUSE {
             bindings = <
 &trans  &trans  &trans  &trans  &trans                  &trans  &trans    &trans           &trans           &trans
-&trans  &trans  &trans  &trans  &trans                  &trans  &mkp MB1  &mkpmkp MB4 MB3  &mkpmkp MB5 MB2  &kpmo 6 APOS
+&trans  &trans  &trans  &trans  &trans                  &trans  &mkp MB1  &mkpmkp MB4 MB3  &mkpmkp MB5 MB2  &kpmo 4 APOS
 &trans  &trans  &trans  &trans  &trans                  &trans  &trans    &trans           &trans           &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                                              &trans
             >;
+
+            label = "3";
         };
 
-        snipe {
+        SCROLL {
             bindings = <
 &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                          &trans
             >;
+
+            label = "4";
         };
 
-        scroll {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                          &trans
-            >;
-        };
-
-        normal {
+        GAME {
             bindings = <
 &kp Q    &kp W   &kp E  &kp R      &kp T                          &kp Y      &kp U  &kp I      &kp O    &kp P
 &kp A    &kp S   &kp D  &kp F      &kp G                          &kp H      &kp J  &kp K      &kp L    &kp SEMI
 &kp Z    &kp C   &kp X  &kp V      &kp B                          &kp N      &kp M  &kp COMMA  &kp DOT  &kp FSLH
 &kp ESC  &kp F1  &kp H  &kp SPACE  &kp LSHFT  &kp TAB  &kp ENTER  &kp SPACE                             &trans
             >;
-        };
 
-        layer_6 {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans                  &trans                     &lpl AMPERSAND N7          &lpl ASTERISK N8       &lpl LEFT_PARENTHESIS N9  &lpl RIGHT_PARENTHESIS N0
-&trans  &trans  &trans  &trans  &trans                  &trans                     &lpl DOLLAR NUMBER_4       &lpl PERCENT N5        &lpl CARET NUMBER_6       &lpl UNDERSCORE MINUS
-&trans  &trans  &trans  &trans  &trans                  &lpl RIGHT_PARENTHESIS N0  &lpl EXCLAMATION NUMBER_1  &lpl AT_SIGN NUMBER_2  &lpl HASH NUMBER_3        &lpl PLUS EQUAL
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                                                                                                 &trans
-            >;
+            label = "5";
         };
     };
 
