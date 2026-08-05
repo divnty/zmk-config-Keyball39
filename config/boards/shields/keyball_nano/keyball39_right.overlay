@@ -5,11 +5,15 @@
  */
  
 #include "keyball39.dtsi"
+#include <zephyr/dt-bindings/input/input-event-codes.h>
 
 / {
     trackball_scaler: trackball_scaler {
-        compatible = "zmk,input-processor-multiplier";
+        compatible = "zmk,input-processor-scaler";
         #input-processor-cells = <2>;
+        type = <INPUT_EV_REL>;
+        codes = <INPUT_REL_X INPUT_REL_Y>;
+        track-remainders;
     };
 };
 
@@ -61,10 +65,7 @@
         reg = <0>;
         spi-max-frequency = <2000000>;
         irq-gpios = <&gpio1 11 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
-        input-processors = <&trackball_scaler 2 1>;
-        //automouse-layer = <3>;
         scroll-layers = <4>;
-        //snipe-layers = <5>;
     };
 };
 
@@ -72,5 +73,6 @@
   trackball_listener {
     compatible = "zmk,input-listener";
     device = <&trackball>;
+    input-processors = <&trackball_scaler 2 1>;
   };
 };
