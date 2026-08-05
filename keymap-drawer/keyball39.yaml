@@ -137,9 +137,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - '&mkp MB1'
-  - {t: '&mkp MB3', h: '&mkp MB4'}
-  - {t: '&mkp MB2', h: '&mkp MB5'}
+  - {t: '&mkp MB1', type: held}
+  - {t: '&mkp MB3', h: '&mkp MB4', type: held}
+  - {t: '&mkp MB2', h: '&mkp MB5', type: held}
   - {t: ., h: SCROL}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -177,9 +177,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held alternate}
-  - {type: held alternate}
-  - {type: held alternate}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -242,7 +242,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
 - p: [16, 17, 18]
-  k: SCROL
+  k: {t: MOUSE, h: '$$mdi:gesture-tap-hold$$'}
 - p: [16, 17]
   k: '&mkp MB1'
 - p: [17, 18]
@@ -253,3 +253,5 @@ combos:
   k: $$mdi:keyboard-tab-reverse$$
 - p: [12, 11, 13]
   k: {t: MAIN, h: toggle}
+- p: [18, 16]
+  k: '&mkp MB3'
