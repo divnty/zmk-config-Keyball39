@@ -371,12 +371,12 @@
 
         backspace {
             bindings = <&kp BACKSPACE>;
-            key-positions = <16 17>;
+            key-positions = <16 17 18>;
         };
 
         msl {
             bindings = <&sl_mouse 4>;
-            key-positions = <16 17 18>;
+            key-positions = <16 17>;
         };
 
         esc {
