@@ -548,7 +548,7 @@
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                          &trans
             >;
 
-            label = "SCRO";
+            label = "4";
         };
 
         GAME {
