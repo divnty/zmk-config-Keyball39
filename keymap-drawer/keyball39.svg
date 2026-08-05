@@ -469,7 +469,9 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
 <text x="0" y="-4" class="key tap">`</text>
-<text x="0" y="-24" class="key shifted">~</text>
+<a href="#x_x">
+<text x="0" y="24" class="key hold layer-activator">5</text>
+</a><text x="0" y="-24" class="key shifted">~</text>
 </g>
 <g transform="translate(84, 203)" class="key keypos-31">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
@@ -540,6 +542,14 @@ rect.held, rect.combo.held {
 <g class="combo combopos-4">
 <rect rx="6" ry="6" x="98" y="75" width="28" height="26" class="combo"/>
 <use href="#mdi:keyboard-tab-reverse" xlink:href="#mdi:keyboard-tab-reverse" x="103" y="79" height="18" width="18.0" class="combo tap glyph mdi:keyboard-tab-reverse"/>
+</g>
+<g class="combo combopos-5">
+<path d="M140,89 l-37,2" class="combo"/>
+<path d="M140,89 l37,2" class="combo"/>
+<rect rx="6" ry="6" x="126" y="76" width="28" height="26" class="combo"/>
+<a href="#x_x">
+<text x="140" y="89" class="combo tap layer-activator">0</text>
+</a><text x="140" y="100" class="combo hold">toggle</text>
 </g>
 </g>
 </g>
@@ -783,6 +793,14 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="98" y="75" width="28" height="26" class="combo"/>
 <use href="#mdi:keyboard-tab-reverse" xlink:href="#mdi:keyboard-tab-reverse" x="103" y="79" height="18" width="18.0" class="combo tap glyph mdi:keyboard-tab-reverse"/>
 </g>
+<g class="combo combopos-5">
+<path d="M140,89 l-37,2" class="combo"/>
+<path d="M140,89 l37,2" class="combo"/>
+<rect rx="6" ry="6" x="126" y="76" width="28" height="26" class="combo"/>
+<a href="#x_x">
+<text x="140" y="89" class="combo tap layer-activator">0</text>
+</a><text x="140" y="100" class="combo hold">toggle</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 688)" class="layer-2">
@@ -1005,6 +1023,14 @@ rect.held, rect.combo.held {
 <g class="combo combopos-4">
 <rect rx="6" ry="6" x="98" y="75" width="28" height="26" class="combo"/>
 <use href="#mdi:keyboard-tab-reverse" xlink:href="#mdi:keyboard-tab-reverse" x="103" y="79" height="18" width="18.0" class="combo tap glyph mdi:keyboard-tab-reverse"/>
+</g>
+<g class="combo combopos-5">
+<path d="M140,89 l-37,2" class="combo"/>
+<path d="M140,89 l37,2" class="combo"/>
+<rect rx="6" ry="6" x="126" y="76" width="28" height="26" class="combo"/>
+<a href="#x_x">
+<text x="140" y="89" class="combo tap layer-activator">0</text>
+</a><text x="140" y="100" class="combo hold">toggle</text>
 </g>
 </g>
 </g>
@@ -1240,6 +1266,14 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="98" y="75" width="28" height="26" class="combo"/>
 <use href="#mdi:keyboard-tab-reverse" xlink:href="#mdi:keyboard-tab-reverse" x="103" y="79" height="18" width="18.0" class="combo tap glyph mdi:keyboard-tab-reverse"/>
 </g>
+<g class="combo combopos-5">
+<path d="M140,89 l-37,2" class="combo"/>
+<path d="M140,89 l37,2" class="combo"/>
+<rect rx="6" ry="6" x="126" y="76" width="28" height="26" class="combo"/>
+<a href="#x_x">
+<text x="140" y="89" class="combo tap layer-activator">0</text>
+</a><text x="140" y="100" class="combo hold">toggle</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 1375)" class="layer-4">
@@ -1462,6 +1496,14 @@ rect.held, rect.combo.held {
 <g class="combo combopos-4">
 <rect rx="6" ry="6" x="98" y="75" width="28" height="26" class="combo"/>
 <use href="#mdi:keyboard-tab-reverse" xlink:href="#mdi:keyboard-tab-reverse" x="103" y="79" height="18" width="18.0" class="combo tap glyph mdi:keyboard-tab-reverse"/>
+</g>
+<g class="combo combopos-5">
+<path d="M140,89 l-37,2" class="combo"/>
+<path d="M140,89 l37,2" class="combo"/>
+<rect rx="6" ry="6" x="126" y="76" width="28" height="26" class="combo"/>
+<a href="#x_x">
+<text x="140" y="89" class="combo tap layer-activator">0</text>
+</a><text x="140" y="100" class="combo hold">toggle</text>
 </g>
 </g>
 </g>
@@ -1690,6 +1732,14 @@ rect.held, rect.combo.held {
 <g class="combo combopos-4">
 <rect rx="6" ry="6" x="98" y="75" width="28" height="26" class="combo"/>
 <use href="#mdi:keyboard-tab-reverse" xlink:href="#mdi:keyboard-tab-reverse" x="103" y="79" height="18" width="18.0" class="combo tap glyph mdi:keyboard-tab-reverse"/>
+</g>
+<g class="combo combopos-5">
+<path d="M140,89 l-37,2" class="combo"/>
+<path d="M140,89 l37,2" class="combo"/>
+<rect rx="6" ry="6" x="126" y="76" width="28" height="26" class="combo"/>
+<a href="#x_x">
+<text x="140" y="89" class="combo tap layer-activator">0</text>
+</a><text x="140" y="100" class="combo hold">toggle</text>
 </g>
 </g>
 </g>

@@ -31,7 +31,7 @@ layers:
   - {t: ',', h: '-', s: <}
   - {t: ., h: '='}
   - {t: /, h: \, s: '?'}
-  - {t: '`', s: '~'}
+  - {t: '`', h: '5', s: '~'}
   - {t: Meh+D, h: 'Ctl+Gui+$$mdi:arrow-left-bold$$'}
   - {t: Ctl+C, h: 'Ctl+Gui+$$mdi:arrow-right-bold$$'}
   - {t: '$$mdi:backspace$$', type: backspace}
@@ -251,3 +251,5 @@ combos:
   k: $$mdi:keyboard-tab$$
 - p: [12, 11]
   k: $$mdi:keyboard-tab-reverse$$
+- p: [12, 11, 13]
+  k: {t: '0', h: toggle}
