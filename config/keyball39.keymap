@@ -182,11 +182,6 @@
             bindings = <&mkp MB3>;
             key-positions = <18 16>;
         };
-
-        scroll {
-            bindings = <&mo 4>;
-            key-positions = <16 17 18 19>;
-        };
     };
 
     macros {
