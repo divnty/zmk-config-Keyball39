@@ -334,40 +334,20 @@
             tapping-term-ms = <170>;
             flavor = "tap-preferred";
         };
+
+        slmousekp: slmousekp {
+            compatible = "zmk,behavior-hold-tap";
+            label = "SLMOUSEKP";
+            bindings = <&kp>, <&sl_mouse>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <160>;
+            flavor = "tap-preferred";
+        };
     };
 
     combos {
         compatible = "zmk,combos";
-
-        printscreen {
-            bindings = <&kp PRINTSCREEN>;
-            key-positions = <13 33>;
-        };
-
-        win5 {
-            bindings = <&kp PAGE_UP>;
-            key-positions = <16 36>;
-        };
-
-        win6 {
-            bindings = <&kp PAGE_DOWN>;
-            key-positions = <16 37>;
-        };
-
-        win7 {
-            bindings = <&kp END>;
-            key-positions = <17 37>;
-        };
-
-        hoe {
-            bindings = <&kp HOME>;
-            key-positions = <17 36>;
-        };
-
-        tab {
-            bindings = <&kp TAB>;
-            key-positions = <13 34>;
-        };
 
         backspace {
             bindings = <&kp BACKSPACE>;
@@ -382,6 +362,16 @@
         esc {
             bindings = <&kp ESCAPE>;
             key-positions = <17 18>;
+        };
+
+        tab2 {
+            bindings = <&kp TAB>;
+            key-positions = <13 12>;
+        };
+
+        btab {
+            bindings = <&kp LS(TAB)>;
+            key-positions = <12 11>;
         };
     };
 
@@ -495,10 +485,10 @@
         base {
             display-name = "0";
             bindings = <
-&lplnum NUMBER_1 Q  &lplnum NUMBER_2 W               &lplnum NUMBER_3 E        &lplnum NUMBER_4 R  &lplnum N5 T                                       &lplnum NUMBER_6 Y  &lplnum N7 U        &lplnum N8 I      &lplnum N9 O       &lplnum N0 P
-&lpl LEFT_WIN A     &lpl LEFT_ALT S                  &lpl LCTRL D              &lpl LEFT_SHIFT F   &sticklayfkeys 1 G                                 &lt 1 H             &lpl RIGHT_SHIFT J  &lpl RCTRL K      &lpl RIGHT_ALT L   &lpl SEMICOLON APOSTROPHE
-&lpl CAPS Z         &lpl PRINTSCREEN X               &lplcapsword 0 C          &lt 2 V             &lpl LS(LC(B)) B                                   &lpl INSERT N       &lpl PAUSE_BREAK M  &lpl MINUS COMMA  &lpl EQUAL PERIOD  &lpl BACKSLASH SLASH
-&kp GRAVE           &lpl LC(LG(LEFT)) LC(LA(LS(D)))  &lpl LC(LG(RIGHT)) LC(C)  &kp BACKSPACE       &kp DEL             &stickylayer 4 ESC  &kp ENTER  &kp SPACE                                                                    &righttop
+&lplnum NUMBER_1 Q  &lplnum NUMBER_2 W               &lplnum NUMBER_3 E        &lplnum NUMBER_4 R  &lplnum N5 T                               &lplnum NUMBER_6 Y  &lplnum N7 U        &lplnum N8 I      &lplnum N9 O       &lplnum N0 P
+&lpl LEFT_WIN A     &lpl LEFT_ALT S                  &lpl LCTRL D              &lpl LEFT_SHIFT F   &sticklayfkeys 1 G                         &lt 1 H             &lpl RIGHT_SHIFT J  &lpl RCTRL K      &lpl RIGHT_ALT L   &lpl SEMICOLON APOSTROPHE
+&lpl CAPS Z         &lpl PRINTSCREEN X               &lplcapsword 0 C          &lt 2 V             &lpl LS(LC(B)) B                           &lpl INSERT N       &lpl PAUSE_BREAK M  &lpl MINUS COMMA  &lpl EQUAL PERIOD  &lpl BACKSLASH SLASH
+&kp GRAVE           &lpl LC(LG(LEFT)) LC(LA(LS(D)))  &lpl LC(LG(RIGHT)) LC(C)  &kp BACKSPACE       &kp DEL             &kp ESCAPE  &kp ENTER  &kp SPACE                                                                    &righttop
             >;
         };
 
@@ -506,7 +496,7 @@
             display-name = "4";
             bindings = <
 &kp F1  &kp F2   &kp F3   &kp F4        &volumedownleftbootloader 0 C_VOLUME_DOWN                              &volumuprightbootloader 0 C_VOLUME_UP  &kp LS(F1)  &kp LS(F2)   &kp LS(F3)   &kp LS(F4)
-&kp F5  &kp F6   &kp F7   &kp F8        &kp C_MUTE                                                             &string2                               &kp LS(F5)  &kp LS(F6)   &kp LS(F7)   &kp LS(F8)
+&kp F5  &kp F6   &kp F7   &kp F8        &kp K_MUTE                                                             &string2                               &kp LS(F5)  &kp LS(F6)   &kp LS(F7)   &kp LS(F8)
 &kp F9  &kp F10  &kp F11  &kp F12       &trans                                                                 &string                                &kp LS(F9)  &kp LS(F10)  &kp LS(F11)  &kp LS(F12)
 &trans  &trans   &trans   &bt BT_SEL 2  &bt BT_SEL 4                               &bt BT_SEL 1  &bt BT_SEL 3  &bt BT_SEL 0                                                                 &trans
             >;
