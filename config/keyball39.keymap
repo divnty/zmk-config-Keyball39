@@ -384,6 +384,11 @@
             bindings = <&kp LS(TAB)>;
             key-positions = <12 11>;
         };
+
+        BASE {
+            bindings = <&to 0>;
+            key-positions = <12 11 13>;
+        };
     };
 
     macros {
@@ -493,13 +498,13 @@
     keymap {
         compatible = "zmk,keymap";
 
-        base {
+        MAIN {
             display-name = "0";
             bindings = <
 &lplnum NUMBER_1 Q  &lplnum NUMBER_2 W               &lplnum NUMBER_3 E        &lplslower NUMBER_4 R  &lplnum N5 T                               &lplnum NUMBER_6 Y  &lplslower N7 U     &lplnum N8 I      &lplnum N9 O       &lplnum N0 P
 &lpl LEFT_WIN A     &lpl LEFT_ALT S                  &lpl LCTRL D              &lpl LEFT_SHIFT F      &sticklayfkeys 1 G                         &lt 1 H             &lpl RIGHT_SHIFT J  &lpl RCTRL K      &lpl RIGHT_ALT L   &lpl SEMICOLON APOSTROPHE
 &lpl CAPS Z         &lpl PRINTSCREEN X               &lplcapsword 0 C          &lt 2 V                &lpl LS(LC(B)) B                           &lpl INSERT N       &lpl PAUSE_BREAK M  &lpl MINUS COMMA  &lpl EQUAL PERIOD  &lpl BACKSLASH SLASH
-&kp GRAVE           &lpl LC(LG(LEFT)) LC(LA(LS(D)))  &lpl LC(LG(RIGHT)) LC(C)  &kp BACKSPACE          &kp DEL             &kp ESCAPE  &kp ENTER  &kp SPACE                                                                    &righttop
+&kptog 5 GRAVE      &lpl LC(LG(LEFT)) LC(LA(LS(D)))  &lpl LC(LG(RIGHT)) LC(C)  &kp BACKSPACE          &kp DEL             &kp ESCAPE  &kp ENTER  &kp SPACE                                                                    &righttop
             >;
         };
 
