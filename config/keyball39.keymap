@@ -499,7 +499,7 @@
         compatible = "zmk,keymap";
 
         MAIN {
-            display-name = "MAIN";
+            display-name = "0";
             bindings = <
 &lplnum NUMBER_1 Q  &lplnum NUMBER_2 W               &lplnum NUMBER_3 E        &lplslower NUMBER_4 R  &lplnum N5 T                               &lplnum NUMBER_6 Y  &lplslower N7 U     &lplnum N8 I      &lplnum N9 O       &lplnum N0 P
 &lpl LEFT_WIN A     &lpl LEFT_ALT S                  &lpl LCTRL D              &lpl LEFT_SHIFT F      &sticklayfkeys 1 G                         &lt 1 H             &lpl RIGHT_SHIFT J  &lpl RCTRL K      &lpl RIGHT_ALT L   &lpl SEMICOLON APOSTROPHE
@@ -509,7 +509,7 @@
         };
 
         FKEYS {
-            display-name = "FKEYS";
+            display-name = "1";
             bindings = <
 &kp F1  &kp F2   &kp F3   &kp F4        &volumedownleftbootloader 0 C_VOLUME_DOWN                              &volumuprightbootloader 0 C_VOLUME_UP  &kp LS(F1)  &kp LS(F2)   &kp LS(F3)   &kp LS(F4)
 &kp F5  &kp F6   &kp F7   &kp F8        &brack                                                                 &string2                               &kp LS(F5)  &kp LS(F6)   &kp LS(F7)   &kp LS(F8)
@@ -526,7 +526,7 @@
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                                        &trans
             >;
 
-            label = "NAV";
+            label = "2";
         };
 
         MOUSE {
@@ -537,7 +537,7 @@
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                                              &trans
             >;
 
-            label = "MOUSE";
+            label = "3";
         };
 
         SCROLL {
@@ -548,7 +548,7 @@
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                          &trans
             >;
 
-            label = "SCROLL";
+            label = "4";
         };
 
         GAME {
@@ -559,7 +559,7 @@
 &kp ESC  &kp F1  &kp H  &kp SPACE  &kp LSHFT  &kp TAB  &kp ENTER  &kp SPACE                             &trans
             >;
 
-            label = "GAME";
+            label = "5";
         };
     };
 
