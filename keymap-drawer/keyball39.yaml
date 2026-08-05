@@ -120,7 +120,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  MOUS:
+  MOUSE:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -140,7 +140,7 @@ layers:
   - {t: '&mkp MB1', type: held}
   - {t: '&mkp MB3', h: '&mkp MB4', type: held}
   - {t: '&mkp MB2', h: '&mkp MB5'}
-  - {t: ., h: '4'}
+  - {t: ., h: SCROL}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -160,7 +160,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  '4':
+  SCROL:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -244,7 +244,7 @@ combos:
 - p: [16, 17, 18]
   k: {t: '$$mdi:backspace$$', type: backspace}
 - p: [16, 17]
-  k: {t: MOUS, h: '$$mdi:gesture-tap-hold$$'}
+  k: {t: MOUSE, h: '$$mdi:gesture-tap-hold$$'}
 - p: [17, 18]
   k: $$mdi:keyboard-esc$$
 - p: [13, 12]
