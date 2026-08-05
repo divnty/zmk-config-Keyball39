@@ -10,12 +10,6 @@
     col-offset = <6>;
 };
 
-/ {
-    zip_xy_multiplier: zip_xy_multiplier {
-        compatible = "zmk,input-processor-multiplier";
-        #input-processor-cells = <2>;
-    };
-};
 
 &kscan0 {
 	col-gpios
@@ -61,6 +55,7 @@
         reg = <0>;
         spi-max-frequency = <2000000>;
         irq-gpios = <&gpio1 11 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
+        input-processors = <&zip_xy_multiplier 2 1>;
         //automouse-layer = <3>;
 	scroll-layers = <4>;
 	//snipe-layers = <5>;
@@ -71,6 +66,5 @@
   trackball_listener {
     compatible = "zmk,input-listener";
     device = <&trackball>;
-    xy-processors = <&zip_xy_multiplier 2 1>;
   };
 };
